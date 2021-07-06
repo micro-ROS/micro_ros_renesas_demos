@@ -4,3 +4,6 @@
 [submodule "micro_ros_usb/micro_ros_renesas2estudio_component"]
 	path = micro_ros_usb/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
+[submodule "micro_ros_udp_freertos/micro_ros_renesas2estudio_component"]
+	path = micro_ros_udp_freertos/micro_ros_renesas2estudio_component
+	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
