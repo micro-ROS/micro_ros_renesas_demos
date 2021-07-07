@@ -312,16 +312,8 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="micro_ros_udp_freertos.com.renesas.cdt.managedbuild.gnuarm.target.elf.1176465824" name="Executable" projectType="com.renesas.cdt.managedbuild.gnuarm.target.elf"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.1546818937;com.renesas.cdt.managedbuild.gnuarm.config.elf.release.1546818937.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1315677793;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1107482936">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.1053651081;com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.1053651081.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2018516703;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.2052464061">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration"/>
 </cproject>
