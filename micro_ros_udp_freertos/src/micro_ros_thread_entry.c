@@ -1,4 +1,5 @@
 #include "micro_ros_thread.h"
+#include "./utils.h"
 
 #include "FreeRTOS_IP.h"
 #include "FreeRTOS_IP_Private.h"
@@ -45,6 +46,8 @@ void micro_ros_thread_entry(void *pvParameters)
     if (!rcutils_set_default_allocator(&custom_allocator)) {
         printf("Error on default allocators (line %d)\n", __LINE__);
     }
+
+    set_led_status(LED_BLUE, true);
 
     microros_app();
 
