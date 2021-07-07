@@ -211,36 +211,6 @@
       <property id="module.driver.ioport.elc_trigger_ioport4" value="_disabled"/>
     </module>
     <module id="module.freertos.heap.4.20136739"/>
-    <module id="module.aws.freertosplus.freertosplus_tcp.1444991808"/>
-    <module id="module.driver.freertos_plus_tcp_on_ether.620406582"/>
-    <module id="module.driver.ether_on_ether.2004922896">
-      <property id="module.driver.ether.name" value="g_ether0"/>
-      <property id="module.driver.ether.channel" value="module.driver.ether.channel.0"/>
-      <property id="module.driver.ether.mac_address" value="00:11:22:33:44:55"/>
-      <property id="module.driver.ether.zerocopy" value="module.driver.ether.zerocopy.0"/>
-      <property id="module.driver.ether.flow_control" value="module.driver.ether.flow_control.0"/>
-      <property id="module.driver.ether.multicast" value="module.driver.ether.multicast.1"/>
-      <property id="module.driver.ether.promiscuous" value="module.driver.ether.promiscuous.0"/>
-      <property id="module.driver.ether.broadcast_filter" value="0"/>
-      <property id="module.driver.ether.num_tx_descriptors" value="1"/>
-      <property id="module.driver.ether.num_rx_descriptors" value="1"/>
-      <property id="module.driver.ether.allocate_rx_buffer" value="module.driver.ether.allocate_rx_buffer.1"/>
-      <property id="module.driver.ether.ether_buffer_size" value="1514"/>
-      <property id="module.driver.ether.padding" value="module.driver.ether.padding.0"/>
-      <property id="module.driver.ether.padding_offset" value="0"/>
-      <property id="module.driver.ether.interrupt_priority" value="board.icu.common.irq.priority12"/>
-      <property id="module.driver.ether.p_callback" value="NULL"/>
-    </module>
-    <module id="module.driver.ether_phy_on_ether_phy.1506900926">
-      <property id="module.driver.ether_phy.name" value="g_ether_phy0"/>
-      <property id="module.driver.ether_phy.channel" value="module.driver.ether_phy.channel.0"/>
-      <property id="module.driver.ether_phy.phy_lsi_address" value="0"/>
-      <property id="module.driver.ether_phy.phy_reset_wait_time" value="0x00020000"/>
-      <property id="module.driver.ether_phy.mii_type" value="module.driver.mii_type.mii"/>
-      <property id="module.driver.ether_phy.mii_bit_access_wait_time" value="8"/>
-      <property id="module.driver.ether_phy.flow_control" value="module.driver.ether_phy.flow_control.0"/>
-    </module>
-    <module id="module.freertos.bufferallocation2.973848648"/>
     <module id="module.driver.timer_on_agt.1745479491">
       <property id="module.driver.timer.name" value="g_timer0"/>
       <property id="module.driver.timer.channel" value="0"/>
@@ -259,6 +229,36 @@
       <property id="module.driver.timer.p_callback" value="micro_ros_timer_cb"/>
       <property id="module.driver.timer.ipl" value="board.icu.common.irq.priority15"/>
     </module>
+    <module id="module.aws.freertosplus.freertosplus_tcp.273974638"/>
+    <module id="module.driver.freertos_plus_tcp_on_ether.64004367"/>
+    <module id="module.driver.ether_on_ether.31906170">
+      <property id="module.driver.ether.name" value="g_ether0"/>
+      <property id="module.driver.ether.channel" value="module.driver.ether.channel.0"/>
+      <property id="module.driver.ether.mac_address" value="00:11:22:33:44:55"/>
+      <property id="module.driver.ether.zerocopy" value="module.driver.ether.zerocopy.0"/>
+      <property id="module.driver.ether.flow_control" value="module.driver.ether.flow_control.0"/>
+      <property id="module.driver.ether.multicast" value="module.driver.ether.multicast.1"/>
+      <property id="module.driver.ether.promiscuous" value="module.driver.ether.promiscuous.0"/>
+      <property id="module.driver.ether.broadcast_filter" value="0"/>
+      <property id="module.driver.ether.num_tx_descriptors" value="1"/>
+      <property id="module.driver.ether.num_rx_descriptors" value="1"/>
+      <property id="module.driver.ether.allocate_rx_buffer" value="module.driver.ether.allocate_rx_buffer.1"/>
+      <property id="module.driver.ether.ether_buffer_size" value="1514"/>
+      <property id="module.driver.ether.padding" value="module.driver.ether.padding.0"/>
+      <property id="module.driver.ether.padding_offset" value="0"/>
+      <property id="module.driver.ether.interrupt_priority" value="board.icu.common.irq.priority12"/>
+      <property id="module.driver.ether.p_callback" value="NULL"/>
+    </module>
+    <module id="module.driver.ether_phy_on_ether_phy.1005080606">
+      <property id="module.driver.ether_phy.name" value="g_ether_phy0"/>
+      <property id="module.driver.ether_phy.channel" value="module.driver.ether_phy.channel.0"/>
+      <property id="module.driver.ether_phy.phy_lsi_address" value="0"/>
+      <property id="module.driver.ether_phy.phy_reset_wait_time" value="0x00020000"/>
+      <property id="module.driver.ether_phy.mii_type" value="module.driver.mii_type.mii"/>
+      <property id="module.driver.ether_phy.mii_bit_access_wait_time" value="8"/>
+      <property id="module.driver.ether_phy.flow_control" value="module.driver.ether_phy.flow_control.0"/>
+    </module>
+    <module id="module.freertos.bufferallocation2.1355312347"/>
     <context id="_hal.0">
       <stack module="module.driver.ioport_on_ioport.0"/>
     </context>
@@ -271,15 +271,15 @@
       <property id="rtos.awsfreertos.thread.allocation" value="rtos.awsfreertos.thread.allocation.static"/>
       <property id="rtos.awsfreertos.thread.secure_context" value="rtos.awsfreertos.thread.secure_context.enable"/>
       <stack module="module.freertos.heap.4.20136739"/>
-      <stack module="module.aws.freertosplus.freertosplus_tcp.1444991808">
-        <stack module="module.driver.freertos_plus_tcp_on_ether.620406582" requires="module.aws.freertosplus.freertosplus_tcp.requires.freertosplus_tcp_driver">
-          <stack module="module.driver.ether_on_ether.2004922896" requires="module.driver.freertos_plus_tcp_on_ether.requires.ether">
-            <stack module="module.driver.ether_phy_on_ether_phy.1506900926" requires="module.driver.ether.requires.ether_phy"/>
+      <stack module="module.driver.timer_on_agt.1745479491"/>
+      <stack module="module.aws.freertosplus.freertosplus_tcp.273974638">
+        <stack module="module.driver.freertos_plus_tcp_on_ether.64004367" requires="module.aws.freertosplus.freertosplus_tcp.requires.freertosplus_tcp_driver">
+          <stack module="module.driver.ether_on_ether.31906170" requires="module.driver.freertos_plus_tcp_on_ether.requires.ether">
+            <stack module="module.driver.ether_phy_on_ether_phy.1005080606" requires="module.driver.ether.requires.ether_phy"/>
           </stack>
-          <stack module="module.freertos.bufferallocation2.973848648" requires="module.driver.freertos_plus_tcp_on_ether.requires.bufferallocation2"/>
+          <stack module="module.freertos.bufferallocation2.1355312347" requires="module.driver.freertos_plus_tcp_on_ether.requires.bufferallocation2"/>
         </stack>
       </stack>
-      <stack module="module.driver.timer_on_agt.1745479491"/>
     </context>
     <config id="config.driver.ether_phy">
       <property id="config.driver.ether_phy.param_checking_enable" value="config.driver.ether_phy.param_checking_enable.bsp"/>

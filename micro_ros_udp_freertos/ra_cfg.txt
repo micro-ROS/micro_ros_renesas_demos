@@ -459,6 +459,11 @@ FSP Configuration
     Parameter Checking: Default (BSP)
     
   Module "Heap 4"
+  Module "Timer Driver on r_agt"
+    Parameter Checking: Default (BSP)
+    Pin Output Support: Disabled
+    Pin Input Support: Disabled
+    
   Module "FreeRTOS+TCP"
     Print debug messages: Disable
     Print info messages: Disable
@@ -523,11 +528,6 @@ FSP Configuration
     Reference Clock: Default
     
   Module "Buffer Allocation 2"
-  Module "Timer Driver on r_agt"
-    Parameter Checking: Default (BSP)
-    Pin Output Support: Disabled
-    Pin Input Support: Disabled
-    
   FreeRTOS
     General: Custom FreeRTOSConfig.h: 
     General: Use Preemption: Enabled
@@ -611,6 +611,24 @@ FSP Configuration
     Allocate Secure Context: Enable
     
     Instance "Heap 4"
+    Instance "g_timer0 Timer Driver on r_agt"
+      General: Name: g_timer0
+      General: Channel: 0
+      General: Mode: Periodic
+      General: Period: 0x800000
+      General: Period Unit: Raw Counts
+      Output: Duty Cycle Percent (only applicable in PWM mode): 50
+      General: Count Source: PCLKB
+      Output: AGTOA Output: Disabled
+      Output: AGTOB Output: Disabled
+      Output: AGTO Output: Disabled
+      Input: Measurement Mode: Measure Disabled
+      Input: Input Filter: No Filter
+      Input: Enable Pin: Enable Pin Not Used
+      Input: Trigger Edge: Trigger Edge Rising
+      Interrupts: Callback: micro_ros_timer_cb
+      Interrupts: Underflow Interrupt Priority: Priority 15
+      
     Instance "FreeRTOS+TCP"
       Instance "FreeRTOS+TCP Wrapper to r_ether"
         Instance "g_ether0 Ethernet Driver on r_ether"
@@ -641,21 +659,3 @@ FSP Configuration
             Flow Control: Disable
             
         Instance "Buffer Allocation 2"
-    Instance "g_timer0 Timer Driver on r_agt"
-      General: Name: g_timer0
-      General: Channel: 0
-      General: Mode: Periodic
-      General: Period: 0x800000
-      General: Period Unit: Raw Counts
-      Output: Duty Cycle Percent (only applicable in PWM mode): 50
-      General: Count Source: PCLKB
-      Output: AGTOA Output: Disabled
-      Output: AGTOB Output: Disabled
-      Output: AGTO Output: Disabled
-      Input: Measurement Mode: Measure Disabled
-      Input: Input Filter: No Filter
-      Input: Enable Pin: Enable Pin Not Used
-      Input: Trigger Edge: Trigger Edge Rising
-      Interrupts: Callback: micro_ros_timer_cb
-      Interrupts: Underflow Interrupt Priority: Priority 15
-      
