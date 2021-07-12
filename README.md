@@ -62,7 +62,7 @@ Open Renesas e<sup>2</sup> studio, import some of them, and finally build and fl
 
 ## Using the micro-ROS Agent
 
-It is possible to use a **micro-ROS Agent** just wby using this docker command:
+It is possible to use a **micro-ROS Agent** just by using this docker command:
 
 ```bash
 # UDPv4 micro-ROS Agent
