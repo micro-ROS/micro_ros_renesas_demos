@@ -1572,6 +1572,372 @@ FSP Configuration
     Web HTTP: Server: Maximum number of retries per packet: 10
     Web HTTP: Server: Server Next Re-transmission timeout shift: 1
     
+  Module "NetX Duo DHCP IPv4 Client"
+    Common: Error Checking: Enabled (default)
+    Common: IP Static Routing: Disabled (default)
+    Common: Physical Header: 
+    Common: Physical Trailer: 
+    Common: ARP Defend By Reply: Disabled (default)
+    Common: ARP Mac Change Notification: Disabled (default)
+    Common: ARP Expiration Rate: 
+    Common: ARP Update Rate: 
+    Common: TCP ACK Timer Rate: 
+    Common: TCP Fast Timer Rate: 
+    Common: TCP Transmit Timer Rate: 
+    Common: TCP Keepalive Initial: 
+    Common: TCP Keepalive Retry Interval: 
+    Common: ARP Maximum Retries: 
+    Common: ARP Maximum Queue Depth: 
+    Common: ARP Auto ARP Entry: Enabled (default)
+    Common: Maximum Multicast Groups: 
+    Common: Maximum Listen Requests: 
+    Common: TCP Keepalive: Disabled (default)
+    Common: TCP Window Scaling: Disabled (default)
+    Common: TCP Immediate ACK: Disabled (default)
+    Common: TCP ACK Every N Packets: 
+    Common: TCP Maximum Retries: 
+    Common: TCP Maximum TX Queue: 
+    Common: TCP Retry Shift: 
+    Common: TCP Keepalive Retries: 
+    Common: Driver Deferred Processing: Disabled (default)
+    Common: Loopback Interface: Enabled (default)
+    Common: Maximum Physical Interfaces: 
+    Common: Fragmentation support: Enabled (default)
+    Common: IP RX Checksum: Enabled (default)
+    Common: IP TX Checksum: Enabled (default)
+    Common: TCP RX Checksum: Enabled (default)
+    Common: TCP TX Checksum: Enabled (default)
+    Common: UDP RX Checksum: Enabled (default)
+    Common: UDP TX Checksum: Enabled (default)
+    Common: Reset Disconnect: Enabled (default)
+    Common: RX Size Checking: Enabled (default)
+    Common: ARP Info: Enabled (default)
+    Common: IP Info: Enabled (default)
+    Common: ICMP Info: Enabled (default)
+    Common: IGMPv2: Enabled (default)
+    Common: IGMP Info: Enabled (default)
+    Common: Packet Info: Enabled (default)
+    Common: RARP Info: Enabled (default)
+    Common: TCP Info: Enabled (default)
+    Common: UDP Info: Enabled (default)
+    Common: Extended Notify Support: Disabled (default)
+    Common: NAT: Disabled (default)
+    Common: Packet Header Pad Size: 
+    Common: TCP MSS Minimum: 
+    Common: Source Address Check: Disabled (default)
+    Common: ARP Defend Interval: 
+    Common: TCP Maximum Out Of Order Packets: 
+    Common: NetX Duo IPV6 Support: Enabled (default)
+    Common: Notify when the IPv6 address is changed: Disabled (default)
+    Common: Allow discover maximum MTU in the path: Disabled (default)
+    Common: Wait before resetting target's path MTU in destination table (seconds): 
+    Common: IPv6 routing table entry limit: 
+    Common: IPv6 destination table entry limit: 
+    Common: Maximum time allowed to reassemble IP fragment: 
+    Common: Maximum time allowed to reassemble IPv4 fragment: 
+    Common: Maximum time allowed to reassemble IPv6 fragment: 
+    Common: IPv6 multicast join/leave function support: Disabled (default)
+    Common: Size of the prefix table for router advertisements: 
+    Common: Stateless address auto-configuration support: Disabled (default)
+    Common: IPv6 address pool entry limit: 
+    Common: Delay before the first stale cache entry solicitation (seconds): 
+    Common: Duplicate Address Detection support: Enabled (default)
+    Common: Neighbor Solicitation message count before interface address marked valid: 
+    Common: Retain older cache table entries till timeout option: Disabled (default)
+    Common: IPv6 Neighbor Cache table entry limit.: 
+    Common: Neighbor Solicitation message count for IPv6 Neighbor Discovery protocol: 
+    Common: Neighbor Solicitation message count to determine neighbor’s reachability: 
+    Common: Maximum entries in ND cache queue: 
+    Common: Duration for address to be 'reachable' with no packets received from it (seconds): 
+    Common: Delay between solicitation packets (milliseconds): 
+    Common: ICMPv6 error message in response to invalid packet support: Enabled (default)
+    Common: ICMPv6 redirect packet processing support: Enabled (default)
+    Common: IPv6 router advertisement packet processing support: Enabled (default)
+    Common: Periodic IPv6 router solicitation messages support: Enabled (default)
+    Common: Maximum host router solicitations till no response is received: 
+    Common: Interval between two router solicitation messages: 
+    Common: Checksum computation support on received ICMPv4 packets: Enabled (default)
+    Common: Checksum computation support on received ICMPv6 packets: Enabled (default)
+    Common: Checksum computation support on received ICMP packets: Enabled (default)
+    Common: Checksum computation support on transmitted ICMPv4 packets: Enabled (default)
+    Common: Checksum computation support on transmitted ICMPv6 packets: Enabled (default)
+    Common: Checksum computation support on transmitted ICMP packets: Enabled (default)
+    Common: Packet Alignment: 
+    DHCP: Common: IPv4: Type of Service for UDP requests: Normal
+    DHCP: Common: IPv4: Fragmentation option: Don't fragment
+    DHCP: Common: IPv4: Time to live: 128
+    DHCP: Common: IPv4: Packet Queue depth: 5
+    DHCP: Client: IPv4: Internal thread priority: 3
+    DHCP: Client: IPv4: Internal thread stack size (bytes): 4096
+    DHCP: Client: IPv4: Timeout between DHCP messages processed (seconds): 1
+    DHCP: Client: IPv4: Use BOOTP: Disable
+    DHCP: Client: IPv4: Send ARP probe: Disable
+    DHCP: Client: IPv4: ARP probe wait time (seconds): 1
+    DHCP: Client: IPv4: Minimum ARP probe wait time (seconds): 1
+    DHCP: Client: IPv4: Maximum ARP probe wait time (seconds): 2
+    DHCP: Client: IPv4: ARP probe count: 2
+    DHCP: Client: IPv4: Maximum retransmission timeout (seconds): 64
+    DHCP: Client: IPv4: Minimum renew timeout (seconds): 60
+    DHCP: Client: IPv4: Minimum retransmission timeout (seconds): 4
+    DHCP: Client: IPv4: Persistent client state: Disable
+    DHCP: Client: IPv4: Maximum message size support: Disable
+    DHCP: Client: IPv4: DHCP options buffer size (bytes): 312
+    DHCP: Client: IPv4: Maximum number of network interfaces for DHCP client: 1
+    DHCP: Client: IPv4: Wait before restarting the configuration process (seconds): 10
+    HTTP: Common: Type of Service: Normal
+    HTTP: Common: Fragmentation option: Don't fragment
+    HTTP: Common: Time to live: 128
+    HTTP: Common: MD5 Support: Disable
+    HTTP: Common: Maximum resource name length (bytes): 40
+    HTTP: Common: Maximum password length (bytes): 20
+    HTTP: Common: Maximum username length (bytes): 20
+    HTTP: Client: Minimum packet size (bytes): 300
+    HTTP: Client: Operation timeout (seconds): 10
+    DNS: Client: DNS Control Type of Service: Normal
+    DNS: Client: Socket fragmentation option: Dont fragment
+    DNS: Client: Time to live: 128
+    DNS: Client: Client DNS IP version: IPv4
+    DNS: Client: Maximum number of DNS Servers in the Client server list: 5
+    DNS: Client: Maximum DNS queries size (bytes): 512
+    DNS: Client: Maximum retries for a server: 3
+    DNS: Client: Maximum duration to retransmit a DNS query (seconds): 64
+    DNS: Client: Packet allocate timeout (seconds): 1
+    DNS: Client: Client has DNS and Gateway server: Disable
+    DNS: Client: Clear previous DNS queries from queue: Disable
+    DNS: Client: Extended RR types support: Disable
+    DNS: Client: Cache support: Disable
+    Telnet: Common: Type of service for TCP requests: Normal
+    Telnet: Common: Fragmentation option: Don't fragment
+    Telnet: Common: Server TCP port number: 23
+    Telnet: Common: Time to live: 128
+    AutoIP: Wait before sending first probe (seconds): 1
+    AutoIP: ARP probes to send: 3
+    AutoIP: Minimum wait between probes (seconds): 1
+    AutoIP: Maximum wait between probes (seconds): 2
+    AutoIP: Maximum conflicts before increasing processing delay: 10
+    AutoIP: Wait extend after maximum conflicts (seconds): 60
+    AutoIP: Wait before announcement (seconds): 2
+    AutoIP: Number of ARP announces: 2
+    AutoIP: Wait between announces (seconds): 2
+    AutoIP: Wait between defense announces (seconds): 10
+    Web HTTP: Common: Type of Service: Normal
+    Web HTTP: Common: Fragmentation option: Don't fragment
+    Web HTTP: Common: MD5 Support: Disable
+    Web HTTP: Common: Time to live: 128
+    Web HTTP: Common: Maximum password length (bytes): 20
+    Web HTTP: Common: Maximum username length (bytes): 20
+    Web HTTP: Client: Minimum packet size (bytes): 300
+    Web HTTP: Client: HTTPS Support: Disable
+    SMTP: Client: TCP window size (bytes): 1460
+    SMTP: Client: Packet allocation timeout (seconds): 2
+    SMTP: Client: TCP socket connect timeout (seconds): 10
+    SMTP: Client: TCP socket disconnect timeout (seconds): 5
+    SMTP: Client: Server greeting reply timeout (seconds): 10
+    SMTP: Client: Command timeout (seconds): 10
+    SMTP: Client: Mail data request timeout (seconds): 30
+    SMTP: Client: TCP socket send completion timeout (seconds): 5
+    SMTP: Client: Server challenge maximum string length (bytes): 200
+    SMTP: Client: Maximum password length (bytes): 20
+    SMTP: Client: Maximum username length (bytes): 40
+    DHCP: Client: IPv6: Internal thread priority: 3
+    DHCP: Client: IPv6: Time out for obtaining DHCPv6 client mutex (ticks): TX_WAIT_FOREVER
+    DHCP: Client: IPv6: Time interval between current IP address lease time update (seconds): 1
+    DHCP: Client: IPv6: Maximum IA addresses allowed in client record: 1
+    DHCP: Client: IPv6: Number of DNS servers the client will store: 2
+    DHCP: Client: IPv6: Number of time servers the client will store: 1
+    DHCP: Client: IPv6: Domain name buffer size (bytes): 32
+    DHCP: Client: IPv6: Current time zone information buffer size (bytes): 16
+    DHCP: Client: IPv6: Maximum DHCPv6 server messages buffer size (bytes): 100
+    DHCP: Common: IPv6: Type of Service for UDP requests: Normal
+    DHCP: Common: IPv6: Time to live: 128
+    DHCP: Common: IPv6: Packet Queue depth: 5
+    DHCP: Common: IPv6: Packet allocation timeout (seconds): 3
+    DHCP: Common: IPv6: Interval for active session time update (seconds): 3
+    DHCP: Server: IPv4: Internal thread priority: 1
+    DHCP: Server: IPv4: Packet allocate timeout (seconds): 2
+    DHCP: Server: IPv4: Fast periodic timer interval to check session inactivity timeout (seconds): 10
+    DHCP: Server: IPv4: DHCP Client Session timeout - multiple of Fast periodic interval (seconds): 10
+    DHCP: Server: IPv4: Client IP address default lease time (seconds): 0xFFFFFFFF
+    DHCP: Server: IPv4: Slow periodic timer interval to check IP lease expiration (seconds): 1000
+    DHCP: Server: IPv4: Size of the array to contain options in client request (units): 12
+    DHCP: Server: IPv4: Server option list (optional - use space for separation) : 1 3 6
+    DHCP: Server: IPv4: Server option list size (optional): 3
+    DHCP: Server: IPv4: Size of the server host name buffer (bytes): 32
+    DHCP: Server: IPv4: Size of the current client hostname buffer (bytes): 32
+    DHCP: Server: IPv4: Maximum size of an IP addresses list (units): 20
+    DHCP: Server: IPv4: Size of client record table (units): 50
+    DHCP: Server: IPv4: Size of the BOOT buffer (bytes): 548
+    DHCP: Server: IPv6: Internal thread priority: 1
+    DHCP: Server: IPv6: Client lease time expiration check interval (seconds): 60
+    DHCP: Server: IPv6: DHCPv6 packet receive timeout (seconds): 1
+    DHCP: Server: IPv6: Server preference ranking for clients: 0
+    DHCP: Server: IPv6: Maximum options to extract from a client message: 6
+    DHCP: Server: IPv6: Server interval for first client IP address renewal attempt (seconds): 2000
+    DHCP: Server: IPv6: Server interval for second client IP address renewal attempt (seconds): 3000
+    DHCP: Server: IPv6: Time interval after which client IP is deprecated (seconds): 2 * NX_DHCPV6_DEFAULT_T1_TIME
+    DHCP: Server: IPv6: Time interval after which leased IP is invalid (seconds): 2 * NX_DHCPV6_DEFAULT_PREFERRED_TIME
+    DHCP: Server: IPv6: Maximum server status option message size (bytes): 100
+    DHCP: Server: IPv6: Maximum Size of the Server’s IP lease table (count): 100
+    DHCP: Server: IPv6: Size of the Server’s Client record table (count): 120
+    DHCP: Server: IPv6: Server socket fragmentation option: Dont fragment
+    DHCP: Server: IPv6: Vendor assigned unique ID: abcdeffghijklmnopqrstuvwxyz
+    DHCP: Server: IPv6: Private vendor ID: 0x12345678
+    DHCP: Server: IPv6: Size of Vendor ID buffer (bytes): 48
+    DHCP: Server: IPv6: Client request success message : granted: IA OPTION GRANTED
+    DHCP: Server: IPv6: Client request failure message : Failure unspecified: IA OPTION NOT GRANTED-FAILURE UNSPECIFIED
+    DHCP: Server: IPv6: Client request failure message : No addresses available: IA OPTION NOT GRANTED-NO ADDRESSES AVAILABLE
+    DHCP: Server: IPv6: Client request failure message : Invalid client request: IA OPTION NOT GRANTED-INVALID CLIENT REQUEST
+    DHCP: Server: IPv6: Client request failure message : Client not on link: IA OPTION NOT GRANTED-CLIENT NOT ON LINK
+    DHCP: Server: IPv6: Client request failure message : Client must use multicast: IA OPTION NOT GRANTED-CLIENT MUST USE MULTICAST
+    DHCP: Server: IPv6: Session inactivity timeout(seconds): 20
+    Telnet: Server: Internal thread priority: 16
+    Telnet: Server: Maximum clients to serve simultaneously: 4
+    Telnet: Server: Socket window size (bytes): 2048
+    Telnet: Server: Server time out (seconds): 10
+    Telnet: Server: Client inactivity timeout (seconds): 600
+    Telnet: Server: Timeout check period (seconds): 60
+    Telnet: Server: Option negotiation: Enable
+    Telnet: Server: Use application packet pool: Disable
+    Telnet: Server: Packet size in the pool (bytes): 300
+    Telnet: Server: Total packet pool size (bytes): 2048
+    SNTP: Client: Internal thread stack size (bytes): 2048
+    SNTP: Client: SNTP client thread time slicing interval (ticks): TX_NO_TIME_SLICE
+    SNTP: Client: Internal thread priority: 2
+    SNTP: Client: UDP socket name: SNTP Client socket
+    SNTP: Client: UDP port number: 123
+    SNTP: Client: Server UDP port: 123
+    SNTP: Client: Time to live: 128
+    SNTP: Client: Maximum UDP packets queue depth (units): 5
+    SNTP: Client: Packet allocation timeout (seconds): 1
+    SNTP: Client: SNTP version to use: 3
+    SNTP: Client: NTP minimum version: 3
+    SNTP: Client: Lowest level server stratum client accepts: 2
+    SNTP: Client: Minimum time difference that triggers adjustment (milliseconds): 10
+    SNTP: Client: Maximum time adjustment allowed to local clock time (milliseconds): 10800000
+    SNTP: Client: Ignore maximum time adjust limit at startup: True
+    SNTP: Client: Maximum time lapse without valid update (seconds): 7200
+    SNTP: Client: 'Update time remaining' timer update interval (seconds): 1
+    SNTP: Client: Starting poll interval for unicast update request (seconds): 3600
+    SNTP: Client: Poll interval increment after failed time update: 2
+    SNTP: Client: Calculate round trip time of messages: False
+    SNTP: Client: Maximum server clock inaccuracy to accept (to disable set 0): 50000
+    SNTP: Client: Invalid message limit to mark server invalid: 3
+    SNTP: Client: Randomize update request interval on startup: False
+    SNTP: Client: Internal Task sleep interval (ticks): 1
+    SNTP: Client: Current calendar year: 2016
+    TFTP: Common: Maximum error string length (bytes): 64
+    TFTP: Common: Time to live: 128
+    TFTP: Common: Type of Service for UDP requests: Normal
+    TFTP: Common: Fragmentation option: Don't fragment
+    TFTP: Client: Source port to use: NX_ANY_PORT
+    MQTT: Client: Parameter Checking: Default (BSP)
+    MQTT: Client: NX Secure: Disable
+    MQTT: Client: Keepalive Timer Rate (s): 1
+    MQTT: Client: Ping Timeout Delay (s): 1
+    MQTT: Client: Socket Timeout (in timer ticks) : 0xFFFFFFFF
+    NAT: Minimum count for translation entry: 3
+    NAT: Timeout for translation entry (seconds): 240
+    NAT: Minimum assigned port number for outbound TCP packets: 20000
+    NAT: Maximum assigned port number for outbound TCP packets: 30000
+    NAT: Minimum assigned port number for outbound UDP packets: 20000
+    NAT: Maximum assigned port number for outbound UDP packets: 30000
+    NAT: Minimum ICMP query identifier: 20000
+    NAT: Maximum ICMP query identifier: 30000
+    FTP: Common: Control Type of Service: Normal
+    FTP: Common: Data Type of Service: Normal
+    FTP: Common: Fragmentation option: Don't fragment
+    FTP: Common: Time to live: 128
+    FTP: Common: Duration between client inactivity check (seconds): 60
+    FTP: Client: TCP socket to use: NX_ANY_PORT
+    SNMP: Agent: Internal thread stack size (bytes): 4096
+    SNMP: Agent: SNMP agent priority: 16
+    SNMP: Agent: Type of service for SNMP responses: Normal
+    SNMP: Agent: Fragment enable for SNMP PDU requests: Dont Fragment
+    SNMP: Agent: SNMP socket time to live: 128
+    SNMP: Agent: Agent timeout: 100
+    SNMP: Agent: Max octet string size: 255
+    SNMP: Agent: Max context string size: 32
+    SNMP: Agent: Max User name Size: 64
+    SNMP: Agent: Max security Key Size: 64
+    SNMP: Agent: Maximum SNMP packet size: 560
+    SNMP: Agent: UDP port number: 161
+    SNMP: Agent: Trap destination port: 162
+    SNMP: Agent: Max trap Key Size: 64
+    SNMP: Agent: SNMP Version 1: Enable
+    SNMP: Agent: SNMP Version 2: Enable
+    SNMP: Agent: SNMP Version 3: Enable
+    POP3: Client: Maximum buffer size to store messages (bytes): 2000
+    POP3: Client: Packet time out (seconds): 1
+    POP3: Client: Connection time out (seconds): 30
+    POP3: Client: Disconnect time out (seconds): 2
+    POP3: Client: TCP socket send wait (seconds): 2
+    POP3: Client: Server reply timeout (seconds): 10
+    POP3: Client: TCP window size (bytes): 1460
+    POP3: Client: Maximum user name length (bytes): 40
+    POP3: Client: Maximum password length (bytes): 20
+    FTP: Server: Internal thread priority: 16
+    FTP: Server: Internal thread time slicing interval  (ticks): 2
+    FTP: Server: Maximum clients to serve simultaneously: 4
+    FTP: Server: Control window size (bytes): 400
+    FTP: Server: Data window size (bytes): 2048
+    FTP: Server: Duration internal services will suspend for (seconds): 1
+    FTP: Server: Maximum username length (bytes): 20
+    FTP: Server: Maximum password length (bytes): 20
+    FTP: Server: Duration allowed with no activity (seconds): 240
+    FTP: Server: Socket retransmit timeout (seconds): 2
+    FTP: Server: Maximum queued transmit packets: 20
+    FTP: Server: Number of socket retransmissions: 10
+    FTP: Server: Binary left shift as multiplier for next retry duration: 1
+    HTTP: Server: FileX Support: Enable
+    HTTP: Server: Multipart HTTP requests support: Disable
+    HTTP: Server: Internal thread priority: 16
+    HTTP: Server: Internal thread time slicing interval (ticks): 2
+    HTTP: Server: Server socket window size (bytes): 2048
+    HTTP: Server: Server time out (seconds): 10
+    HTTP: Server: Server time out for accept (seconds): 10
+    HTTP: Server: Server time out for disconnect (seconds): 10
+    HTTP: Server: Server time out for receive (seconds): 10
+    HTTP: Server: Server time out for send (seconds): 10
+    HTTP: Server: Maximum size of header field (bytes): 256
+    HTTP: Server: Maximum connections in queue: 5
+    HTTP: Server: Maximum client user name length (bytes): 20
+    HTTP: Server: Maximum client user password length (bytes): 20
+    HTTP: Server: Minimum size of packets in pool (bytes): 600
+    HTTP: Server: Maximum number of queued transmit packets (units): 20
+    HTTP: Server: Wait before retry (seconds): 2
+    HTTP: Server: Maximum number of retries per packet: 10
+    HTTP: Server: Binary left shift as multiplier for next retry duration: 1
+    TFTP: Server: FileX support: Enable
+    TFTP: Server: Retransmission on client request support: Disable
+    TFTP: Server: Internal thread priority: 16
+    TFTP: Server: Maximum clients to serve simultaneously: 10
+    TFTP: Server: Time slice for internal thread: 2
+    TFTP: Server: Client request activity timeout check interval (ticks): 20
+    TFTP: Server: Ack or data retransmission interval (ticks): 200
+    TFTP: Server: Maximum retries for transmission without response: 5
+    TFTP: Server: Maximum retries for transmission with duplicate response: 2
+    Web HTTP: Server: Parameter Checking: Default (BSP)
+    Web HTTP: Server: HTTPS Support: Disable
+    Web HTTP: Server: FileX Support: Enable
+    Web HTTP: Server: Multipart HTTP requests support: Disable
+    Web HTTP: Server: Server thread priority: 16
+    Web HTTP: Server: Server thread time slicing interval (ticks): 2
+    Web HTTP: Server: Server socket window size (bytes): 2048
+    Web HTTP: Server: Server time out (seconds): 10
+    Web HTTP: Server: Server time out for accept (seconds): 10
+    Web HTTP: Server: Server time out for disconnect (seconds): 10
+    Web HTTP: Server: Server time out for receive (seconds): 10
+    Web HTTP: Server: Server time out for send (seconds): 10
+    Web HTTP: Server: Maximum size of header field (bytes): 256
+    Web HTTP: Server: Maximum connections in queue: 4
+    Web HTTP: Server: Maximum length of resource name: 40
+    Web HTTP: Server: Number of simultaneous sessions for server: 2
+    Web HTTP: Server: Minimum size of packets in pool (bytes): 600
+    Web HTTP: Server: Maximum number of queued transmit packets (units): 20
+    Web HTTP: Server: Server Socket Re-transmission Timeout (seconds): 2
+    Web HTTP: Server: Maximum number of retries per packet: 10
+    Web HTTP: Server: Server Next Re-transmission timeout shift: 1
+    
   Azure RTOS ThreadX
     General: Custom tx_user.h: 
     General: Error Checking: Enabled
@@ -1642,52 +2008,60 @@ FSP Configuration
     Auto start: Enabled
     Time slicing interval (ticks): 1
     
-    Instance "g_ip0 NetX Duo IP Instance"
-      Name: g_ip0
-      IPv4 Address: 192.168.1.120
-      Subnet Mask: 255.255.255.0
-      Default Gateway Address: 0.0.0.0
-      IPv6 Global Address: 2001:0:0:0:0:0:0:1
-      IPv6 Link Local Address (All zeros means use MAC address): 0:0:0:0:0:0:0:0
-      IP Helper Thread Stack Size (bytes): 2048
-      IP Helper Thread Priority: 3
-      ARP cache storage units: Bytes
-          ARP cache size (in storage units): 520
+    Instance "g_dhcp_client0 NetX Duo DHCP IPv4 Client"
+      Name: g_dhcp_client0
       
+      Instance "g_ip0 NetX Duo IP Instance"
+        Name: g_ip0
+        IPv4 Address: 0.0.0.0
+        Subnet Mask: 255.255.255.0
+        Default Gateway Address: 0.0.0.0
+        IPv6 Global Address: 2001:0:0:0:0:0:0:1
+        IPv6 Link Local Address (All zeros means use MAC address): 0:0:0:0:0:0:0:0
+        IP Helper Thread Stack Size (bytes): 2048
+        IP Helper Thread Priority: 3
+        ARP cache storage units: Bytes
+            ARP cache size (in storage units): 520
+        
+        Instance "g_packet_pool0 NetX Duo Packet Pool Instance"
+          Name: g_packet_pool0
+          Packet Size (bytes): 1568
+          Number of Packets in Pool: 16
+          
+        Instance "NetX Duo Ethernet Driver"
+          Name: g_netxduo_ether_0
+          IP MTU: 1500
+          
+          Instance "g_ether0 Ethernet Driver on r_ether"
+            General: Name: g_ether0
+            General: Channel: 0
+            General: MAC address: 00:11:22:33:44:55
+            General: Zero-copy Mode: Enable
+            General: Flow control functionality: Disable
+            Filters: Multicast Mode: Enable
+            Filters: Promiscuous Mode: Disable
+            Filters: Broadcast filter: 0
+            Buffers: Number of TX buffer: 4
+            Buffers: Number of RX buffer: 4
+            Buffers: Allocate RX buffer: Disable
+            Buffers: Buffer size: 1514
+            Buffers: Padding size: 2 Bytes
+            Buffers: Padding offset: 14
+            Interrupts: Interrupt priority: Priority 12
+            Interrupts: Callback: rm_netxduo_ether_callback
+            
+            Instance "g_ether_phy0 Ethernet Driver on r_ether_phy"
+              Name: g_ether_phy0
+              Channel: 0
+              PHY-LSI Address: 0
+              PHY-LSI Reset Completion Timeout: 0x00020000
+              Select MII type: MII
+              MII/RMII Register Access Wait-time: 8
+              Flow Control: Disable
+              
+          Instance "NetX Duo Common on nxd"
       Instance "g_packet_pool0 NetX Duo Packet Pool Instance"
         Name: g_packet_pool0
         Packet Size (bytes): 1568
         Number of Packets in Pool: 16
         
-      Instance "NetX Duo Ethernet Driver"
-        Name: g_netxduo_ether_0
-        IP MTU: 1500
-        
-        Instance "g_ether0 Ethernet Driver on r_ether"
-          General: Name: g_ether0
-          General: Channel: 0
-          General: MAC address: 00:11:22:33:44:55
-          General: Zero-copy Mode: Enable
-          General: Flow control functionality: Disable
-          Filters: Multicast Mode: Enable
-          Filters: Promiscuous Mode: Disable
-          Filters: Broadcast filter: 0
-          Buffers: Number of TX buffer: 4
-          Buffers: Number of RX buffer: 4
-          Buffers: Allocate RX buffer: Disable
-          Buffers: Buffer size: 1514
-          Buffers: Padding size: 2 Bytes
-          Buffers: Padding offset: 14
-          Interrupts: Interrupt priority: Priority 12
-          Interrupts: Callback: rm_netxduo_ether_callback
-          
-          Instance "g_ether_phy0 Ethernet Driver on r_ether_phy"
-            Name: g_ether_phy0
-            Channel: 0
-            PHY-LSI Address: 0
-            PHY-LSI Reset Completion Timeout: 0x00020000
-            Select MII type: MII
-            MII/RMII Register Access Wait-time: 8
-            Flow Control: Disable
-            
-        Instance "NetX Duo Common on nxd"
