@@ -11,7 +11,7 @@
 
 [![ ](https://github.com/micro-ROS/micro_ros_renesas_testbench/actions/workflows/ci_galactic.yml/badge.svg?branch=foxy)](https://github.com/micro-ROS/micro_ros_renesas_testbench/actions/workflows/ci_galactic.yml)
 
-This package provides example projects for using [micro-ROS](https://micro.ros.org/) in a [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio). All demos targets [Renesas RA family](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus), an ARM Cortex-M based MCU series, enabling a full micro-ROS compatibility for developing robotics and IoT applications.
+This package provides example projects for using [micro-ROS](https://micro.ros.org/) in a [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio). All demos target [Renesas RA family](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus), an ARM Cortex-M based MCU series, enabling a full micro-ROS compatibility for developing robotics and IoT applications.
 
 - [micro-ROS demos for Renesas e<sup>2</sup> studio](#micro-ros-demos-for-renesas-esup2sup-studio)
   - [Target platorm](#target-platorm)
@@ -62,7 +62,7 @@ Open Renesas e<sup>2</sup> studio, import some of them, and finally build and fl
 
 ## Using the micro-ROS Agent
 
-Is possible to use a **micro-ROS Agent** just with this docker command:
+It is possible to use a **micro-ROS Agent** just wby using this docker command:
 
 ```bash
 # UDPv4 micro-ROS Agent
@@ -78,8 +78,7 @@ There are some other options for using the micro-ROS Agent:
 ## License
 
 This repository is open-sourced under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
-
-For a list of other open-source components included in this repository,
+To find a list of other open-source components included in this repository,
 see the file [3rd-party-licenses.txt](3rd-party-licenses.txt).
 
 ## Known Issues / Limitations
