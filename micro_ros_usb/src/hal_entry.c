@@ -43,8 +43,6 @@ void hal_entry (void)
         printf("Error on default allocators (line %d)\n", __LINE__);
     }
 
-    set_led_status(LED_BLUE, true);
-
     microros_app();
 }
 

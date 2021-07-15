@@ -53,8 +53,8 @@ FSP Configuration
     Main Oscillator Wait Time: 8163 cycles
     
   RA Common
-    Main stack size (bytes): 5000
-    Heap size (bytes): 5000
+    Main stack size (bytes): 15000
+    Heap size (bytes): 15000
     MCU Vcc (mV): 3300
     Parameter checking: Disabled
     Assert Failures: Return FSP_ERR_ASSERTION
