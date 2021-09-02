@@ -24,7 +24,6 @@ jobs:
           ref: ${{ matrix.branch }}
           fetch-depth: '0'
           submodules: recursive
-          token: ${{ secrets.PRIVATE_KEY }}
       - name: Get date
         id: date
         run: echo "::set-output name=date::$(date +'%d-%m-%Y %H:%M')"
