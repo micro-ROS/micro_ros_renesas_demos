@@ -18,6 +18,8 @@ jobs:
             branch: foxy
           - distro: galactic
             branch: galactic
+          - distro: rolling
+            branch: main
     steps:
       - uses: actions/checkout@v2
         with:
