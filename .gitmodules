@@ -13,4 +13,3 @@
 [submodule "micro_ros_can/micro_ros_renesas2estudio_component"]
 	path = micro_ros_can/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
-	branch = feature/can_transport
