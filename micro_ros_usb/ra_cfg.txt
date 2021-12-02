@@ -508,7 +508,7 @@ FSP Configuration
       Input: Enable Pin: Enable Pin Not Used
       Input: Trigger Edge: Trigger Edge Rising
       Interrupts: Callback: micro_ros_timer_cb
-      Interrupts: Underflow Interrupt Priority: Priority 15
+      Interrupts: Underflow Interrupt Priority: Priority 12
       
     Instance "g_pcdc0 USB PCDC driver on r_usb_pcdc"
       Name: g_pcdc0

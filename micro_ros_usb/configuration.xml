@@ -207,7 +207,7 @@
       <property id="module.driver.timer.enable_pin" value="module.driver.timer.enable_pin.enable_pin_not_used"/>
       <property id="module.driver.timer.trigger_edge" value="module.driver.timer.trigger_edge.trigger_edge_rising"/>
       <property id="module.driver.timer.p_callback" value="micro_ros_timer_cb"/>
-      <property id="module.driver.timer.ipl" value="board.icu.common.irq.priority15"/>
+      <property id="module.driver.timer.ipl" value="board.icu.common.irq.priority12"/>
     </module>
     <module id="module.driver.pcdc_on_usb.972319966">
       <property id="module.driver.pcdc.name" value="g_pcdc0"/>
