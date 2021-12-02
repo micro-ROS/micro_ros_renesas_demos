@@ -84,7 +84,7 @@ FSP Configuration
     CANFDCLK Disabled
     ICLK Div /1
     PCLKA Div /2
-    PCLKB Div /16
+    PCLKB Div /4
     PCLKC Div /4
     PCLKD Div /2
     BCLK Div /2
@@ -616,8 +616,8 @@ FSP Configuration
       General: Name: g_timer0
       General: Channel: 0
       General: Mode: Periodic
-      General: Period: 0x800000
-      General: Period Unit: Raw Counts
+      General: Period: 100
+      General: Period Unit: Microseconds
       Output: Duty Cycle Percent (only applicable in PWM mode): 50
       General: Count Source: PCLKB
       Output: AGTOA Output: Disabled

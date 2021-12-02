@@ -111,7 +111,7 @@
     <node id="board.clock.canfdclk.source" option="board.clock.canfdclk.source.disabled"/>
     <node id="board.clock.iclk.div" option="board.clock.iclk.div.1"/>
     <node id="board.clock.pclka.div" option="board.clock.pclka.div.2"/>
-    <node id="board.clock.pclkb.div" option="board.clock.pclkb.div.16"/>
+    <node id="board.clock.pclkb.div" option="board.clock.pclkb.div.4"/>
     <node id="board.clock.pclkc.div" option="board.clock.pclkc.div.4"/>
     <node id="board.clock.pclkd.div" option="board.clock.pclkd.div.2"/>
     <node id="board.clock.bclk.div" option="board.clock.bclk.div.2"/>
@@ -203,8 +203,8 @@
       <property id="module.driver.timer.name" value="g_timer0"/>
       <property id="module.driver.timer.channel" value="0"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
-      <property id="module.driver.timer.period" value="0x800000"/>
-      <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_raw_counts"/>
+      <property id="module.driver.timer.period" value="100"/>
+      <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_usec"/>
       <property id="module.driver.timer.duty_cycle" value="50"/>
       <property id="module.driver.timer.count_source" value="module.driver.timer.count_source.clock_pclkb"/>
       <property id="module.driver.timer.agtoa_output_enable" value="module.driver.timer.agtoa_output_enable.false"/>
