@@ -544,7 +544,7 @@ FSP Configuration
       Input: Enable Pin: Enable Pin Not Used
       Input: Trigger Edge: Trigger Edge Rising
       Interrupts: Callback: micro_ros_timer_cb
-      Interrupts: Underflow Interrupt Priority: Priority 15
+      Interrupts: Underflow Interrupt Priority: Priority 12
       
     Instance "g_canfd0 CANFD Driver on r_canfd"
       General: Name: g_canfd0
