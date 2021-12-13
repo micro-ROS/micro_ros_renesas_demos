@@ -642,7 +642,7 @@ FSP Configuration
           Filters: Promiscuous Mode: Disable
           Filters: Broadcast filter: 0
           Buffers: Number of TX buffer: 1
-          Buffers: Number of RX buffer: 1
+          Buffers: Number of RX buffer: 4
           Buffers: Allocate RX buffer: Enable
           Buffers: Buffer size: 1514
           Buffers: Padding size: Disable
