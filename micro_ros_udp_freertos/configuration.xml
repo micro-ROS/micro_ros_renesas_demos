@@ -242,7 +242,7 @@
       <property id="module.driver.ether.promiscuous" value="module.driver.ether.promiscuous.0"/>
       <property id="module.driver.ether.broadcast_filter" value="0"/>
       <property id="module.driver.ether.num_tx_descriptors" value="1"/>
-      <property id="module.driver.ether.num_rx_descriptors" value="1"/>
+      <property id="module.driver.ether.num_rx_descriptors" value="4"/>
       <property id="module.driver.ether.allocate_rx_buffer" value="module.driver.ether.allocate_rx_buffer.1"/>
       <property id="module.driver.ether.ether_buffer_size" value="1514"/>
       <property id="module.driver.ether.padding" value="module.driver.ether.padding.0"/>
