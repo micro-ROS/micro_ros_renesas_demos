@@ -46,6 +46,7 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 
 | RTOS                                                        | Transport | Description                                            | Folder                                             |
 | ----------------------------------------------------------- | --------- | ------------------------------------------------------ | -------------------------------------------------- |
+| Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](micro_ros_uart)                 |
 | Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](micro_ros_uart)                 |
 | Bare Metal                                                  | USB       | micro-ROS using a serial USB-CDC transport             | [`micro_ros_usb`](micro_ros_usb)                   |
 | [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP | [`micro_ros_udp_freertos`](micro_ros_udp_freertos) |
@@ -71,6 +72,9 @@ docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host mi
 
 # Serial micro-ROS Agent
 docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO serial --dev [YOUR BOARD PORT] -v6
+
+# CAN FD micro-ROS Agent
+docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO canfd --dev [YOUR CAN INTERFACE] -v6
 ```
 
 There are some other options for using the micro-ROS Agent:
