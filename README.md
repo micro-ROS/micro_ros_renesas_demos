@@ -46,7 +46,7 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 
 | RTOS                                                        | Transport | Description                                            | Folder                                             |
 | ----------------------------------------------------------- | --------- | ------------------------------------------------------ | -------------------------------------------------- |
-| Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](micro_ros_uart)                 |
+| Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](micro_ros_can)                 |
 | Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](micro_ros_uart)                 |
 | Bare Metal                                                  | USB       | micro-ROS using a serial USB-CDC transport             | [`micro_ros_usb`](micro_ros_usb)                   |
 | [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP | [`micro_ros_udp_freertos`](micro_ros_udp_freertos) |
