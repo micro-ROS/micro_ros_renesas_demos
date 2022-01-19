@@ -13,7 +13,7 @@
 [submodule "micro_ros_can/micro_ros_renesas2estudio_component"]
 	path = micro_ros_can/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
-[submodule "micro_ros_tcp_freertos/src/e2studio_project_wifi/micro_ros_renesas2estudio_component"]
-	path = micro_ros_tcp_freertos/src/e2studio_project_wifi/micro_ros_renesas2estudio_component
+[submodule "micro_ros_tcp_freertos/micro_ros_renesas2estudio_component"]
+	path = micro_ros_tcp_freertos/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 	branch = feature/pmod_wifi
