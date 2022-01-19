@@ -50,6 +50,7 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 | Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](micro_ros_uart)                 |
 | Bare Metal                                                  | USB       | micro-ROS using a serial USB-CDC transport             | [`micro_ros_usb`](micro_ros_usb)                   |
 | [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP | [`micro_ros_udp_freertos`](micro_ros_udp_freertos) |
+| [FreeRTOS](https://www.freertos.org/)                       | TCP       | micro-ROS using a wifi network transport and AWS Secure Sockets | [`micro_ros_tcp_freertos`](micro_ros_tcp_freertos) |
 | [ThreadX](https://azure.microsoft.com/en-us/services/rtos/) | UDP       | micro-ROS using a network transport and ThreadX + NetX | [`micro_ros_udp_threadx`](micro_ros_udp_threadx)   |
 
 ## Getting started
@@ -69,6 +70,9 @@ It is possible to use a **micro-ROS Agent** just by using this docker command:
 ```bash
 # UDPv4 micro-ROS Agent
 docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO udp4 --port 8888 -v6
+
+# TCPv4 micro-ROS Agent
+docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO tcp4 --port 8888 -v6
 
 # Serial micro-ROS Agent
 docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host microros/micro-ros-agent:$ROS_DISTRO serial --dev [YOUR BOARD PORT] -v6
