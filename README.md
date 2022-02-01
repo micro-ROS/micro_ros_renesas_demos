@@ -55,7 +55,7 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 |          | [FreeRTOS](https://www.freertos.org/)                       | TCP       | micro-ROS using a wifi network transport and AWS Secure Sockets  | [`micro_ros_tcp_freertos`](Boards/EK_RA6M5/micro_ros_tcp_freertos) |
 |          | [ThreadX](https://azure.microsoft.com/en-us/services/rtos/) | UDP       | micro-ROS using a network transport and ThreadX + NetX | [`micro_ros_udp_threadx`](Boards/EK_RA6M5/micro_ros_udp_threadX)   |
 | MCK-RA6T2 | Bare Metal                                                 | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](Boards/MCK_RA6T2/micro_ros_can)  |
-|           | [FreeRTOS](https://www.freertos.org/)                      | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](Boards/MCK_RA6T2/micro_ros_uart)  |
+|           | Bare Metal                                                 | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](Boards/MCK_RA6T2/micro_ros_uart)  |
 
 ## Getting started
 
