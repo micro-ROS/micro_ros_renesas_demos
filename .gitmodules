@@ -1,18 +1,24 @@
 [submodule "micro_ros_uart/micro_ros_renesas2estudio_component"]
-	path = micro_ros_uart/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_uart/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 [submodule "micro_ros_usb/micro_ros_renesas2estudio_component"]
-	path = micro_ros_usb/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_usb/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 [submodule "micro_ros_udp_freertos/micro_ros_renesas2estudio_component"]
-	path = micro_ros_udp_freertos/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_udp_freertos/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 [submodule "micro_ros_udp_threadX/micro_ros_renesas2estudio_component"]
-	path = micro_ros_udp_threadX/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_udp_threadX/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 [submodule "micro_ros_can/micro_ros_renesas2estudio_component"]
-	path = micro_ros_can/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_can/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
 [submodule "micro_ros_tcp_freertos/micro_ros_renesas2estudio_component"]
-	path = micro_ros_tcp_freertos/micro_ros_renesas2estudio_component
+	path = Boards/EK_RA6M5/micro_ros_tcp_freertos/micro_ros_renesas2estudio_component
+	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
+[submodule "Boards/MCK_RA6T2/micro_ros_uart/micro_ros_renesas2estudio_component"]
+	path = Boards/MCK_RA6T2/micro_ros_uart/micro_ros_renesas2estudio_component
+	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
+[submodule "Boards/MCK_RA6T2/micro_ros_can/micro_ros_renesas2estudio_component"]
+	path = Boards/MCK_RA6T2/micro_ros_can/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component

@@ -26,9 +26,11 @@ This package provides example projects for using [micro-ROS](https://micro.ros.o
 ---
 ## Target platform
 
-| MCU                                                                                                                                                                             | Family    | Reference board                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd) | RA Series | [EK-RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group) |
+| MCU | Family | Reference board | Transports |
+| --- | ------ | --------------- | ---------- |
+| [RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd) | RA Series | [EK-RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group) | USB-CDC <br /> Serial UART <br /> UDP (FreeRTOS + TCP) <br /> UDP (ThreadX + NetX) <br /> TCP (AWS Secure Sockets) <br /> CAN FD |
+| [RA6T2](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control)     | RA Series | [MCK-RA6T2](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group) | Serial UART <br /> CAN FD |
+
 
 ## Requirements
 
@@ -44,14 +46,16 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 *<sup>1</sup> Currently only support for Linux is available*
 ## Available demos
 
-| RTOS                                                        | Transport | Description                                            | Folder                                             |
-| ----------------------------------------------------------- | --------- | ------------------------------------------------------ | -------------------------------------------------- |
-| Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](micro_ros_can)                 |
-| Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](micro_ros_uart)                 |
-| Bare Metal                                                  | USB       | micro-ROS using a serial USB-CDC transport             | [`micro_ros_usb`](micro_ros_usb)                   |
-| [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP | [`micro_ros_udp_freertos`](micro_ros_udp_freertos) |
-| [FreeRTOS](https://www.freertos.org/)                       | TCP       | micro-ROS using a wifi network transport and AWS Secure Sockets | [`micro_ros_tcp_freertos`](micro_ros_tcp_freertos) |
-| [ThreadX](https://azure.microsoft.com/en-us/services/rtos/) | UDP       | micro-ROS using a network transport and ThreadX + NetX | [`micro_ros_udp_threadx`](micro_ros_udp_threadx)   |
+| Board | RTOS | Transport | Description | Folder |
+| ----- | ---- | --------- | ----------- | ------ |
+| EK-RA6M5 | Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](Boards/EK_RA6M5/micro_ros_can)  |
+|          | Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](Boards/EK_RA6M5/micro_ros_uart) |
+|          | Bare Metal                                                  | USB       | micro-ROS using a serial USB-CDC transport             | [`micro_ros_usb`](Boards/EK_RA6M5/micro_ros_usb)  |
+|          | [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP | [`micro_ros_udp_freertos`](Boards/EK_RA6M5/micro_ros_udp_freertos) |
+|          | [FreeRTOS](https://www.freertos.org/)                       | TCP       | micro-ROS using a wifi network transport and AWS Secure Sockets  | [`micro_ros_tcp_freertos`](Boards/EK_RA6M5/micro_ros_tcp_freertos) |
+|          | [ThreadX](https://azure.microsoft.com/en-us/services/rtos/) | UDP       | micro-ROS using a network transport and ThreadX + NetX | [`micro_ros_udp_threadx`](Boards/EK_RA6M5/micro_ros_udp_threadX)   |
+| MCK-RA6T2 | Bare Metal                                                 | CAN FD    | micro-ROS using a CAN FD transport                     | [`micro_ros_can`](Boards/MCK_RA6T2/micro_ros_can)  |
+|           | Bare Metal                                                 | UART      | micro-ROS using a serial UART transport                | [`micro_ros_uart`](Boards/MCK_RA6T2/micro_ros_uart)  |
 
 ## Getting started
 
