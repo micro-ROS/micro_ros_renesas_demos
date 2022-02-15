@@ -264,7 +264,7 @@
       <property id="module.driver.uart.data_bits" value="module.driver.uart.data_bits.data_bits_8"/>
       <property id="module.driver.uart.parity" value="module.driver.uart.parity.parity_off"/>
       <property id="module.driver.uart.stop_bits" value="module.driver.uart.stop_bits.stop_bits_1"/>
-      <property id="module.driver.uart.baud" value="115200"/>
+      <property id="module.driver.uart.baud" value="460800"/>
       <property id="module.driver.uart.baudrate_modulation" value="module.driver.uart.baudrate_modulation.disabled"/>
       <property id="module.driver.uart.baudrate_max_err" value="5"/>
       <property id="module.driver.uart.flow_control" value="module.driver.uart.flow_control.rts"/>
