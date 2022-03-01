@@ -53,6 +53,17 @@ git clone -b demo_motor --recurse-submodules https://github.com/micro-ROS/micro_
 
 Open Renesas e<sup>2</sup> studio, import the project inside `micro_ros_motor_demo`, and finally build and flash
 
+Once the communication is stablished, the following topics are available:
+
+- `/motor/speed`: motor output speed on rpm (Float32).
+- `/motor/joint`: motor output position/velocity with gear reduction applied (TF2 joint message).
+- `/motor/cmd`: motor input velocity commands (Float32).
+  The motor can be controled from a ROS2 interface with this topic:
+
+  ```bash
+  ros2 topic pub /motor/cmd std_msgs/Float32 "data: 500" -t 1
+  ```
+
 ## Using the micro-ROS Agent
 
 To start a dockerized **micro-ROS Agent** instance using CAN FD transport:
