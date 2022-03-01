@@ -1,0 +1,14 @@
+version: '3'
+services:
+    rviz:
+        build: ./ros2_utils/rviz
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix
+        privileged: true
+        network_mode: "host"
+    visualizer:
+        build: ./ros2_utils/visualizer
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix
+        privileged: true
+        network_mode: "host"
