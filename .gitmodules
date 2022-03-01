@@ -1,0 +1,4 @@
+[submodule "micro_ros_motor_demo/micro_ros_renesas2estudio_component"]
+	path = micro_ros_motor_demo/micro_ros_renesas2estudio_component
+	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component/
+	branch = galactic
