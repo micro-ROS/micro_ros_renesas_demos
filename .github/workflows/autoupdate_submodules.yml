@@ -18,6 +18,8 @@ jobs:
             branch: foxy
           - distro: galactic
             branch: galactic
+          - distro: humble
+            branch: humble
           - distro: rolling
             branch: main
     steps:
