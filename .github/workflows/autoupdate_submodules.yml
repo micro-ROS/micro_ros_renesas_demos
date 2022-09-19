@@ -20,6 +20,14 @@ jobs:
             branch: galactic
           - distro: humble
             branch: humble
+          - distro: humble
+            branch: demo1
+          - distro: humble
+            branch: demo2
+          - distro: humble
+            branch: demo3
+          - distro: humble
+            branch: demo_motor
           - distro: rolling
             branch: main
     steps:
