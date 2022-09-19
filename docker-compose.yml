@@ -4,11 +4,15 @@ services:
         build: ./ros2_utils/rviz
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix
+        environment:
+            - DISPLAY=unix$DISPLAY
         privileged: true
         network_mode: "host"
     visualizer:
         build: ./ros2_utils/visualizer
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix
+        environment:
+            - DISPLAY=unix$DISPLAY
         privileged: true
         network_mode: "host"

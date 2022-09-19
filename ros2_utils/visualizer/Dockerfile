@@ -1,4 +1,4 @@
-FROM ros:galactic
+FROM ros:humble
 
 # Avoid warnings and ask users for manual configuration parameters
 ENV DEBIAN_FRONTEND noninteractive
@@ -17,16 +17,14 @@ RUN groupadd --gid $USER_GID $USERNAME && \
 # Update nodejs version
 RUN apt-get update \
     && apt install curl \
-    && curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh \
+    && curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh \
     && bash nodesource_setup.sh
 
 # Configure apt and install packages
 RUN apt-get update \
-    &&  apt install -y ros-$ROS_DISTRO-rmw-fastrtps-cpp \
-    &&  apt remove -y ros-$ROS_DISTRO-rmw-cyclonedds-cpp \
     && apt-get -y install --no-install-recommends git nodejs libnss3-dev \
     libatk-adaptor libgtk2.0-0 libgtk-3-0 libgbm-dev libxss1 libasound2 wget \
-    libx11* libxcb-dri*
+    libx11* libxcb-dri* libcanberra-gtk-module libcanberra-gtk3-module
 
 # Clean up
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
@@ -52,7 +50,6 @@ ENV DISPLAY unix:0
 ENV DEBIAN_FRONTEND dialog
 COPY disable_fastdds_shm.xml /tmp/
 ENV FASTRTPS_DEFAULT_PROFILES_FILE=/tmp/disable_fastdds_shm.xml
-ENV RMW_IMPLEMENTATION rmw_fastrtps_cpp
 
 COPY ./entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]

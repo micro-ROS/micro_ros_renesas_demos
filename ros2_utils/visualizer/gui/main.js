@@ -4,6 +4,7 @@ const path = require('path')
 const WebSocket = require('ws');
 const ws = new WebSocket('ws://localhost:8080');
 
+app.commandLine.appendSwitch('no-sandbox');
 // ws.on('open', function open() {
 //   // console.log("Connected")
 // });
