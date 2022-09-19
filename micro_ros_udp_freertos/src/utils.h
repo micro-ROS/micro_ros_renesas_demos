@@ -3,8 +3,10 @@
 #define MICROROS_UTILS__H
 
 #include "hal_data.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
-#define sleep_ms(X) R_BSP_SoftwareDelay(X, BSP_DELAY_UNITS_MILLISECONDS)
+#define sleep_ms(X) vTaskDelay( X / portTICK_PERIOD_MS )
 
 extern bsp_leds_t g_bsp_leds;
 

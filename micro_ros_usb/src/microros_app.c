@@ -9,22 +9,37 @@
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){bool l = true; while(1){set_led_status(LED_RED, l = !l); sleep_ms(100);}}}
 
 void microros_app(void);
-void on_parameter_changed(Parameter * param);
+bool on_parameter_changed(const Parameter * old_param, const Parameter * new_param, void * context);
 
-void on_parameter_changed(Parameter * param)
+bool on_parameter_changed(const Parameter * old_param, const Parameter * new_param, void * context)
 {
-	if (strcmp(param->name.data, "red") == 0)
+	(void) context;
+
+	bool ret = true;
+
+	if (old_param == NULL || new_param == NULL)
 	{
-		set_led_status(LED_RED, param->value.bool_value);
+		return false;
 	}
-	else if (strcmp(param->name.data, "blue") == 0)
+
+	if (strcmp(new_param->name.data, "red") == 0)
 	{
-		set_led_status(LED_BLUE, param->value.bool_value);
+		set_led_status(LED_RED, new_param->value.bool_value);
 	}
-	else if (strcmp(param->name.data, "green") == 0)
+	else if (strcmp(new_param->name.data, "blue") == 0)
 	{
-		set_led_status(LED_GREEN, param->value.bool_value);
+		set_led_status(LED_BLUE, new_param->value.bool_value);
 	}
+	else if (strcmp(new_param->name.data, "green") == 0)
+	{
+		set_led_status(LED_GREEN, new_param->value.bool_value);
+	}
+	else
+	{
+		ret = false;
+	}
+
+	return ret;
 }
 
 void microros_app(void)
@@ -37,7 +52,7 @@ void microros_app(void)
 
     // create nodes
 	rcl_node_t node;
-	RCCHECK(rclc_node_init_default(&node, "my_renesas_node", "", &support));
+	RCCHECK(rclc_node_init_default(&node, "param_node", "", &support));
 
   	// Create parameter service
 	rclc_parameter_server_t param_server;
@@ -45,7 +60,7 @@ void microros_app(void)
 
 	// create executor
 	rclc_executor_t executor = rclc_executor_get_zero_initialized_executor();
-	RCCHECK(rclc_executor_init(&executor, &support.context, RCLC_PARAMETER_EXECUTOR_HANDLES_NUMBER, &allocator));
+	RCCHECK(rclc_executor_init(&executor, &support.context, RCLC_EXECUTOR_PARAMETER_SERVER_HANDLES, &allocator));
 
 	RCCHECK(rclc_executor_add_parameter_server(&executor, &param_server, on_parameter_changed));
 
@@ -56,6 +71,6 @@ void microros_app(void)
 
 	while(1){
 		rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
-        sleep_ms(100);
+        sleep_ms(10);
 	}
 }
