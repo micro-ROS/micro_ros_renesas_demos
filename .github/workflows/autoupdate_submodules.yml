@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{ matrix.remote_branch }}
+          ref: ${{ matrix.local_branch }}
           fetch-depth: '0'
           submodules: recursive
       - name: Get date
