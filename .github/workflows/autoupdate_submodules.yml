@@ -14,14 +14,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - distro: foxy
-            branch: foxy
-          - distro: galactic
-            branch: galactic
           - distro: humble
             branch: humble
+          - distro: iron
+            branch: iron
           - distro: rolling
-            branch: main
+            branch: rolling
     steps:
       - uses: actions/checkout@v2
         with:
