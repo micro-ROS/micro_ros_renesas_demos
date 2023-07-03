@@ -29,15 +29,10 @@ void micro_ros_thread_entry(void *pvParameters)
     };
 
     // Configure agent address
-    SocketsSockaddr_t socket_addr = {
-         .ulAddress = SOCKETS_inet_addr_quick(192, 168, 1, 159),
-         .usPort    = SOCKETS_htons(8888)
-    };
-
-    // Add configuration to transport args
     custom_transport_args wifi_args = {
        .network_conf = &network_conf,
-       .socket_addr = &socket_addr
+       .agent_ip = "192.168.1.159",
+       .agent_port = 8888
     };
 
     rmw_uros_set_custom_transport(
