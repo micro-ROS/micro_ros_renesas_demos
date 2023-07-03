@@ -29,7 +29,7 @@ This package provides example projects for using [micro-ROS](https://micro.ros.o
 ## Requirements
 
 - [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio) for Linux<sup>1</sup>
-- FSP board packs for Renesas e<sup>2</sup> studio: [Details](fps_install_packs.md).
+- FSP v4.4.0 board packs for Renesas e<sup>2</sup> studio: [Details](https://github.com/micro-ROS/micro_ros_renesas2estudio_component/blob/iron/fps_install_packs.md).
 - GNU Arm Embedded Toolchain v10.3.1.20210824 (Other compatible toolchain may work).
 - [Install colcon](https://colcon.readthedocs.io/en/released/user/installation.html) and dependencies, for example with:
 
