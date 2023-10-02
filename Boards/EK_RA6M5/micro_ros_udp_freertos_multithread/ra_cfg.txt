@@ -557,7 +557,7 @@ FSP Configuration
     General: Use 16-bit Ticks: Disabled
     General: Idle Should Yield: Enabled
     General: Use Task Notifications: Enabled
-    General: Use Mutexes: Disabled
+    General: Use Mutexes: Enabled
     General: Use Recursive Mutexes: Disabled
     General: Use Counting Semaphores: Enabled
     Hooks: Check For Stack Overflow: Disabled
