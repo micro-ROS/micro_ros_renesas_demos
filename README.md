@@ -8,7 +8,7 @@
 
 This package provides example projects for using [micro-ROS](https://micro.ros.org/) in a [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio). All demos target [Renesas RA family](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus), an ARM Cortex-M based MCU series, enabling a full micro-ROS compatibility for developing robotics and IoT applications.
 
-- [micro-ROS demos for Renesas e2 studio](#micro-ros-demos-for-renesas-e2-studio)
+- [micro-ROS demos for Renesas e<sup>2</sup> studio](#micro-ros-demos-for-renesas-esup2sup-studio)```
   - [Target platform](#target-platform)
   - [Requirements](#requirements)
   - [Available demos](#available-demos)
