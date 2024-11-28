@@ -30,7 +30,7 @@ This package provides example projects for using [micro-ROS](https://micro.ros.o
 ## Requirements
 
 - [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio) for Linux<sup>1</sup>
-- FSP v4.4.0 board packs for Renesas e<sup>2</sup> studio: [Details](https://github.com/micro-ROS/micro_ros_renesas2estudio_component/blob/iron/fps_install_packs.md).
+- FSP v5.6.0 board packs for Renesas e<sup>2</sup> studio: [Details](https://github.com/micro-ROS/micro_ros_renesas2estudio_component/blob/jazzy/fps_install_packs.md).
 - GNU Arm Embedded Toolchain v10.3.1.20210824 (Other compatible toolchain may work).
 - [Install colcon](https://colcon.readthedocs.io/en/released/user/installation.html) and dependencies, for example with:
 
@@ -95,15 +95,12 @@ docker run -it --rm -v /dev:/dev -v /dev/shm:/dev/shm --privileged --net=host mi
 There are some other options for using the micro-ROS Agent:
  - Building it in a ROS 2 environment: [Details](https://micro.ros.org/docs/tutorials/core/first_application_linux/).
  - Using a [snap package](https://snapcraft.io/micro-ros-agent).
+
 ## License
 
 This repository is open-sourced under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
 To find a list of other open-source components included in this repository,
 see the file [3rd-party-licenses.txt](3rd-party-licenses.txt).
-
-
-
-
 
 ## Known Issues / Limitations
 
