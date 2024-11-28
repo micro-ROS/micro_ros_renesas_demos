@@ -1,5 +1,5 @@
 FSP Configuration
-  Board "EK-RA6M5"
+  Board "RA6|RA6M5|EK-RA6M5"
   R7FA6M5BH3CFC
     part_number: R7FA6M5BH3CFC
     rom_size_bytes: 2097152
@@ -12,6 +12,7 @@ FSP Configuration
     series: 6
     
   RA6M5 Family
+    Enable inline BSP IRQ functions: Enabled
     Security: Exceptions: Exception Response: Non-Maskable Interrupt
     Security: Exceptions: BusFault, HardFault, and NMI Target: Secure State
     Security: System Reset Request Accessibility: Secure State
@@ -24,9 +25,10 @@ FSP Configuration
     Security: SRAM Accessibility: Standby RAM: Regions 7-0 are all Secure.
     Security: BUS Accessibility: Bus Security Attribution Register A: Both Secure and Non-Secure State
     Security: BUS Accessibility: Bus Security Attribution Register B: Both Secure and Non-Secure State
+    Security: Flash Bank Select Accessibility: Both Secure and Non-Secure State
     Security: Uninitialized Non-Secure Application Fallback: Enable Uninitialized Non-Secure Application Fallback
     Startup C-Cache Line Size: 32 Bytes
-    OFS0 register settings: Independent WDT: Start Mode: IWDT is Disabled
+    OFS0 register settings: Independent WDT: Start Mode: IWDT is stopped after a reset
     OFS0 register settings: Independent WDT: Timeout Period: 2048 cycles
     OFS0 register settings: Independent WDT: Dedicated Clock Frequency Divisor: 128
     OFS0 register settings: Independent WDT: Window End Position:  0% (no window end position)
@@ -40,6 +42,8 @@ FSP Configuration
     OFS0 register settings: WDT: Window Start Position: 100% (no window start position)
     OFS0 register settings: WDT: Reset Interrupt Request: Reset
     OFS0 register settings: WDT: Stop Control: Stop counting when entering Sleep mode
+    OFS1_SEL register settings: Voltage Detection 0 Level Security Attribution: VDSEL setting loads from OFS1_SEC
+    OFS1_SEL register settings: Voltage Detection 0 Circuit Start Security Attribution: LVDAS setting loads from OFS1_SEC
     OFS1 register settings: Voltage Detection 0 Circuit Start: Voltage monitor 0 reset is disabled after reset
     OFS1 register settings: Voltage Detection 0 Level: 2.80 V
     OFS1 register settings: HOCO Oscillation Enable: HOCO oscillation is disabled after reset
@@ -53,6 +57,7 @@ FSP Configuration
     Clocks: HOCO FLL Function: Disabled
     Main Oscillator Wait Time: 8163 cycles
     
+  RA6M5 event data
   RA Common
     Main stack size (bytes): 5000
     Heap size (bytes): 5000
@@ -471,13 +476,13 @@ FSP Configuration
     Pin Input Support: Disabled
     
   Module "FreeRTOS Heap 4"
-  Module "AWS WiFi Common"
+  Module "WiFi Common"
     Max SSID Length: 32
     Max BSSID Length: 6
     Max Passphrase Length: 32
     
   Module "AWS Silex WiFi Sockets Wrapper (rm_aws_sockets_wrapper_silex)"
-  Module "WiFi Onchip Silex Driver using r_sci_uart (rm_wifi_onchip_silex)"
+  Module "WiFi Onchip Silex Driver using UART (rm_wifi_onchip_silex)"
     Parameter Checking: Default (BSP)
     Number of supported socket instances: 1
     Size of RX buffer for socket: 4096
@@ -495,6 +500,7 @@ FSP Configuration
     DTC Support: Enable
     Flow Control Support: Enable
     RS-485 Support: Disable
+    IrDA Support: Disabled
     
   Module "Transfer (r_dtc)"
     Parameter Checking: Default (BSP)
@@ -519,6 +525,7 @@ FSP Configuration
     General: Use 16-bit Ticks: Disabled
     General: Idle Should Yield: Enabled
     General: Use Task Notifications: Enabled
+    General: Task Notification Array Entries: 1
     General: Use Mutexes: Enabled
     General: Use Recursive Mutexes: Disabled
     General: Use Counting Semaphores: Enabled
@@ -531,6 +538,7 @@ FSP Configuration
     General: Num Thread Local Storage Pointers: 5
     General: Stack Depth Type: uint32_t
     General: Message Buffer Length Type: size_t
+    Memory Allocation: Clear Memory on Free: Disabled
     Memory Allocation: Support Static Allocation: Enabled
     Memory Allocation: Support Dynamic Allocation: Enabled
     Memory Allocation: Total Heap Size: 65000
@@ -562,8 +570,9 @@ FSP Configuration
     Optional Functions: xTaskResumeFromISR() Function: Enabled
     RA: Hardware Stack Monitor: Disabled
     Logging: Print String Function: printf(x)
-    Logging: Logging Max Message Length: 192
     Logging: Logging Include Time and Task Name: Disabled
+    Logging: Debug Logging Name: Log Name
+    Logging: Logging Level: LOG_NONE
     
   HAL
     Instance "g_ioport I/O Port (r_ioport)"
@@ -577,6 +586,7 @@ FSP Configuration
     Instance "FreeRTOS Port (rm_freertos_port)"
     Instance "g_timer0 Timer, Low-Power (r_agt)"
       General: Name: g_timer0
+      General: Counter Bit Width: AGT 16-bit
       General: Channel: 0
       General: Mode: Periodic
       General: Period: 100
@@ -604,13 +614,13 @@ FSP Configuration
     
     Instance "FreeRTOS Heap 4"
     Instance "AWS Silex WiFi Sockets Wrapper (rm_aws_sockets_wrapper_silex)"
-      Instance "WiFi Onchip Silex Driver using r_sci_uart (rm_wifi_onchip_silex)"
+      Instance "WiFi Onchip Silex Driver using UART (rm_wifi_onchip_silex)"
         SNTP server IPv4 address: 0.0.0.0
         SNTP Timezone Offset from UTC Hours: 0
         SNTP Timezone Offset from UTC Minutes: 0
         Use Daylight Savings Time: Disabled
         
-        Instance "AWS WiFi Common"
+        Instance "WiFi Common"
         Instance "g_uart0 UART (r_sci_uart)"
           General: Name: g_uart0
           General: Channel: 9
@@ -627,6 +637,9 @@ FSP Configuration
           Extra: Start bit detection: Falling Edge
           Extra: Noise Filter: Disable
           Extra: Receive FIFO Trigger Level: Max
+          Extra: IrDA: Enable: Disabled
+          Extra: IrDA: RXD Polarity Switching: Normal
+          Extra: IrDA: TXD Polarity Switching: Normal
           Extra: RS-485: DE Pin: Disable
           Extra: RS-485: DE Pin Polarity: Active High
           Extra: RS-485: DE Port Number: Disabled
@@ -644,24 +657,22 @@ FSP Configuration
             Destination Address Mode: Fixed
             Source Address Mode: Incremented
             Repeat Area (Unused in Normal Mode): Source
-            Destination Pointer: NULL
-            Source Pointer: NULL
             Interrupt Frequency: After all transfers have completed
             Number of Transfers: 0
             Number of Blocks (Valid only in Block Mode): 0
+            Number of Transfer Descriptors: 1
             Activation Source: SCI9 TXI (Transmit data empty)
             
-          Instance "g_transfer1 Transfer (r_dtc) SCI9 RXI (Received data full)"
+          Instance "g_transfer1 Transfer (r_dtc) SCI9 RXI (Receive data full)"
             Name: g_transfer1
             Mode: Normal
             Transfer Size: 1 Byte
             Destination Address Mode: Incremented
             Source Address Mode: Fixed
             Repeat Area (Unused in Normal Mode): Destination
-            Destination Pointer: NULL
-            Source Pointer: NULL
             Interrupt Frequency: After all transfers have completed
             Number of Transfers: 0
             Number of Blocks (Valid only in Block Mode): 0
-            Activation Source: SCI9 RXI (Received data full)
+            Number of Transfer Descriptors: 1
+            Activation Source: SCI9 RXI (Receive data full)
             
