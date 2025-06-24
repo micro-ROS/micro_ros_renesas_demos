@@ -18,10 +18,12 @@ jobs:
             branch: humble
           - distro: jazzy
             branch: jazzy
+          - distro: kilted
+            branch: kilted
           - distro: rolling
             branch: rolling
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ matrix.branch }}
           fetch-depth: '0'
