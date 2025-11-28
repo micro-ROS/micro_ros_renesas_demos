@@ -25,3 +25,7 @@
 [submodule "Boards/MCK_RA6T2/micro_ros_can/micro_ros_renesas2estudio_component"]
 	path = Boards/MCK_RA6T2/micro_ros_can/micro_ros_renesas2estudio_component
 	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
+[submodule "Boards/MCK_RA8T2/micro_ros_udp_freertos/micro_ros_renesas2estudio_component"]
+	path = Boards/MCK_RA8T2/micro_ros_udp_freertos/micro_ros_renesas2estudio_component
+	url = https://github.com/micro-ROS/micro_ros_renesas2estudio_component
+	branch = kilted
