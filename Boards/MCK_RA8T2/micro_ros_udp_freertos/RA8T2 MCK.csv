@@ -1,0 +1,1581 @@
+﻿"Name","Pin","Function","Power, Clock, Debug, System","GPT","SCI","CANFD","SPI","GPT_OPS","IRQ","BUS","SDRAM","ADC1(Digital)","ULPT","GPT_POEGB","SDHI","GPT_POEGD","ADC0(Digital)","GPT_POEGA","ESWM_GMII/MII","ESWM_RGMII","CMPOUT","ESC","ESWM_RMII","USB FS","ADC(Digital)","GPT_POEGC","AGT","CLKOUT","JTAG/SWD","ETHPHYCLK","CAC","DSMIF","RTC","OSPI","IIC","ADC","I3C","ACMPHS","DAC","Symbolic Name","Drive Capacity","IRQ","Mode","Output type","Pull up","Port Capabilities","Pin Function Comment","Direction","Remarks","Pin Number Comment",
+"AVCC0","R9","CGC_AVCC0","AVCC0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"AVSS0","R10","CGC_AVSS0","AVSS0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"P000","U13","ADC0_AN000","","","","","","","IRQ6-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN000","","IVCMP2","","","","","Analog mode","","","ACMPHS: IVCMP2
+ADC0: AN000
+IRQ: IRQ6-DS","","I","","",
+"P001","T13","ADC0_AN001","","","","","","","IRQ7-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN001","","IVCMP3","","","","","Analog mode","","","ACMPHS: IVCMP3
+ADC0: AN001
+IRQ: IRQ7-DS","","I","","",
+"P002","U14","ADC0_AN002","","","","","","","IRQ8-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN002","","IVCMP2","","","","","Analog mode","","","ACMPHS: IVCMP2
+ADC0: AN002
+IRQ: IRQ8-DS","","I","","",
+"P003","R12","ADC0_AN003","","","","","","","IRQ29","","","","","","","","","","","","","","","","","","","","","","","","","","","AN003","","IVCMP3","","","","","Analog mode","","","ACMPHS: IVCMP3
+ADC0: AN003
+IRQ: IRQ29","","I","","",
+"P004","T11","ADC0_AN004","","","","","","","IRQ9-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN004","","IVCMP2","","","","","Analog mode","","","ACMPHS: IVCMP2
+ADC0: AN004
+IRQ: IRQ9-DS","","I","","",
+"P005","R11","ADC0_AN005","","","","","","","IRQ10-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN005","","IVCMP3","","","","","Analog mode","","","ACMPHS: IVCMP3
+ADC0: AN005
+IRQ: IRQ10-DS","","I","","",
+"P006","U12","ADC1_AN006","","","","","","","IRQ11-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN006","","IVCMP2","","","","","Analog mode","","","ACMPHS: IVCMP2
+ADC1: AN006
+IRQ: IRQ11-DS","","I","","",
+"P007","T12","ADC1_AN007","","","","","","","IRQ28","","","","","","","","","","","","","","","","","","","","","","","","","","","AN007","","IVCMP3","","","","","Analog mode","","","ACMPHS: IVCMP3
+ADC1: AN007
+IRQ: IRQ28","","I","","",
+"P008","U11","ADC1_AN008","","","","","","","IRQ12-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN008","","IVREF0","","","","","Analog mode","","","ACMPHS: IVREF0
+ADC1: AN008
+IRQ: IRQ12-DS","","I","","",
+"P009","P11","ADC1_AN009","","","","","","","IRQ13-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","AN009","","IVREF1","","","","","Analog mode","","","ACMPHS: IVREF1
+ADC1: AN009
+IRQ: IRQ13-DS","","I","","",
+"P010","P10","ADC1_AN010","","","","","","","IRQ14","","","","","","","","","","","","","","","","","","","","","","","","","","","AN010","","","","","","","Analog mode","","","ADC1: AN010
+IRQ: IRQ14","","I","","",
+"P011","N10","ADC1_AN011","","","","","","","IRQ16","","","","","","","","","","","","","","","","","","","","","","","","","","","AN011","","","","","","","Analog mode","","","ADC1: AN011
+IRQ: IRQ16","","I","","",
+"P012","P9","ADC0_AN012","","","","","","","IRQ15","","","","","","","","","","","","","","","","","","","","","","","","","","","AN012","","","","","","","Analog mode","","","ADC0: AN012
+IRQ: IRQ15","","I","","",
+"P013","N9","ADC1_AN013","","","","","","","IRQ14","","","","","","","","","","","","","","","","","","","","","","","","","","","AN013","","","","","","","Analog mode","","","ADC1: AN013
+IRQ: IRQ14","","I","","",
+"P014","T8","ADC0_AN014","","","","","","","IRQ27","","","","","","","","","","","","","","","","","","","","","","","","","","","AN014","","IVCMP0","DA0","","","","Analog mode","","","ACMPHS: IVCMP0
+ADC0: AN014
+DAC120: DA0
+IRQ: IRQ27","","I","","",
+"P015","U8","ADC1_AN015","","","","","","","IRQ13","","","","","","","","","","","","","","","","","","","","","","","","","","","AN015","","IVCMP0","DA1","","","","Analog mode","","","ACMPHS: IVCMP0
+ADC1: AN015
+DAC121: DA1
+IRQ: IRQ13","","I","","",
+"P100","U6","GPIO","","GTIOC8B","DE9/SCK9","","MISO1","","IRQ2","","","","","","","","","GTETRGA","GPTP1_MATCH","GPTP1_MATCH","","CATI2CDATA","GPTP1_MATCH","","","","AGTIO0","","","","","DSM0CLK2","","OM_0_SIO0","","","","","","","","None","Input mode","","","AGT0: AGTIO0
+DSMIF0: DSM0CLK2
+ESC: CATI2CDATA
+ESWM_GMII/MII: GPTP1_MATCH
+ESWM_RGMII1: GPTP1_MATCH
+ESWM_RMII1: GPTP1_MATCH
+GPT8: GTIOC8B
+GPT_POEGA: GTETRGA
+IRQ: IRQ2
+OSPI0: OM_0_SIO0
+SCI9: DE9
+SCI9: SCK9
+SPI1: MISO1","","IO","","",
+"P101","R5","GPT_POEGB_GTETRGB","","GTIOC8A","RXD9","","MOSI1","","IRQ1","","","","","GTETRGB","","","","","GPTP1_CAPTURE","GPTP1_CAPTURE","","CATI2CCLK","GPTP1_CAPTURE","","","","AGTEE0","","","","","DSM0CLK1","","OM_0_SIO3","","","","","","","L","None","Peripheral mode","","","AGT0: AGTEE0
+DSMIF0: DSM0CLK1
+ESC: CATI2CCLK
+ESWM_GMII/MII: GPTP1_CAPTURE
+ESWM_RGMII1: GPTP1_CAPTURE
+ESWM_RMII1: GPTP1_CAPTURE
+GPT8: GTIOC8A
+GPT_POEGB: GTETRGB
+IRQ: IRQ1
+OSPI0: OM_0_SIO3
+SCI9: RXD9
+SPI1: MOSI1","","I","","",
+"P102","P5","GPT2_GTIOC2B","","GTIOC2B","TXD9","CRX0","RSPCK1","GTOWLO","IRQ17","","","","","","","","ADTRG0","","","","","","","","","","AGTO0","","","","","DSM0CLK0","","OM_0_SIO4","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): ADTRG0
+AGT0: AGTO0
+CANFD0: CRX0
+DSMIF0: DSM0CLK0
+GPT2: GTIOC2B
+GPT_OPS: GTOWLO
+IRQ: IRQ17
+OSPI0: OM_0_SIO4
+SCI9: TXD9
+SPI1: RSPCK1","","IO","","",
+"P103","R4","GPT2_GTIOC2A","","GTIOC2A","DE9/CTS_RTS9","CTX0","SSLB0","GTOWUP","IRQ16","","","AD1FLAG1","","","","","","","GPTP0_PPS","GPTP0_PPS","","CATLATCH1","GPTP0_PPS","","","","","","","","","DSM0DAT2","","OM_0_SIO2","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): AD1FLAG1
+CANFD0: CTX0
+DSMIF0: DSM0DAT2
+ESC: CATLATCH1
+ESWM_GMII/MII: GPTP0_PPS
+ESWM_RGMII0: GPTP0_PPS
+ESWM_RMII0: GPTP0_PPS
+GPT2: GTIOC2A
+GPT_OPS: GTOWUP
+IRQ: IRQ16
+OSPI0: OM_0_SIO2
+SCI9: CTS_RTS9
+SCI9: DE9
+SPI1: SSLB0","","IO","","",
+"P104","M6","","","GTIOC1B","CTS9","","SSLB1","","IRQ1","","","","","GTETRGB","","","AD0FLAG1","","GPTP0_MATCH","GPTP0_MATCH","","CATLATCH0","GPTP0_MATCH","","","","","","","","","DSM0DAT1","","OM_0_CS1","","","","","","","","","Disabled","","","ADC0(Digital): AD0FLAG1
+DSMIF0: DSM0DAT1
+ESC: CATLATCH0
+ESWM_GMII/MII: GPTP0_MATCH
+ESWM_RGMII0: GPTP0_MATCH
+ESWM_RMII0: GPTP0_MATCH
+GPT1: GTIOC1B
+GPT_POEGB: GTETRGB
+IRQ: IRQ1
+OSPI0: OM_0_CS1
+SCI9: CTS9
+SPI1: SSLB1","","None","","",
+"P105","N7","","","GTIOC1A","CTS_RTS8/DE8","","SSLB2","","IRQ0","","","","ULPTO1-DS","","","","","","GPTP0_CAPTURE","GPTP0_CAPTURE","","CATSYNC1","GPTP0_CAPTURE","","ADSYNC","","","","","","","DSM0DAT0","","OM_0_ECSINT1","","","","","","","","","Disabled","","","ADC(Digital): ADSYNC
+DSMIF0: DSM0DAT0
+ESC: CATSYNC1
+ESWM_GMII/MII: GPTP0_CAPTURE
+ESWM_RGMII0: GPTP0_CAPTURE
+ESWM_RMII0: GPTP0_CAPTURE
+GPT1: GTIOC1A
+IRQ: IRQ0
+OSPI0: OM_0_ECSINT1
+SCI8: CTS_RTS8
+SCI8: DE8
+SPI1: SSLB2
+ULPT1: ULPTO1-DS","","None","","",
+"P106","N6","","","GTIOC8B","CTS8","","SSLB3","GTOWLO","IRQ16","","","ADST1","ULPTEE1-DS","","","","","","ET1_LINKSTA","ET1_LINKSTA","","CAT1_LINKSTA","ET1_LINKSTA","","","","AGTOB0","","","","","","","OM_0_RESET","","","","","","","","","Disabled","","","ADC1(Digital): ADST1
+AGT0: AGTOB0
+ESC1: CAT1_LINKSTA
+ESWM_GMII/MII: ET1_LINKSTA
+ESWM_RGMII1: ET1_LINKSTA
+ESWM_RMII1: ET1_LINKSTA
+GPT8: GTIOC8B
+GPT_OPS: GTOWLO
+IRQ: IRQ16
+OSPI0: OM_0_RESET
+SCI8: CTS8
+SPI1: SSLB3
+ULPT1: ULPTEE1-DS","","None","","",
+"P107","N5","","","GTIOC8A","CTS4","","","GTOWUP","IRQ31","","","","","","","","ADST0","","ET1_INT","ET1_INT","","","ET1_INT","","","","AGTOA0","","","","","","","OM_0_CS0","","","","","","","","","Disabled","","","ADC0(Digital): ADST0
+AGT0: AGTOA0
+ESWM_GMII/MII: ET1_INT
+ESWM_RGMII1: ET1_INT
+ESWM_RMII1: ET1_INT
+GPT8: GTIOC8A
+GPT_OPS: GTOWUP
+IRQ: IRQ31
+OSPI0: OM_0_CS0
+SCI4: CTS4","","None","","",
+"P108","D8","","","GTIOC10B","","","","","IRQ24","","","","","","SD0DAT6","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT10: GTIOC10B
+IRQ: IRQ24
+SDHI0: SD0DAT6","","None","","",
+"P109","D7","","","GTIOC10A","","","","","IRQ23","","","","","","SD0DAT5","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT10: GTIOC10A
+IRQ: IRQ23
+SDHI0: SD0DAT5","","None","","",
+"P110","C8","GPIO","","GTIOC9B","","","","","IRQ20","","","","","","SD0DAT4","","","","","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","GPT9: GTIOC9B
+IRQ: IRQ20
+SDHI0: SD0DAT4","","IO","","",
+"P111","E8","","","GTIOC9A","","","","","IRQ19","","","","","","SD0DAT3","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT9: GTIOC9A
+IRQ: IRQ19
+SDHI0: SD0DAT3","","None","","",
+"P112","A4","GPT_POEGA_GTETRGA","","GTIOC3B","TXD0","","SSLA2","","IRQ27","D3","DQ3","","ULPTOB0-DS","","SD0DAT4","","ADST0","GTETRGA","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): ADST0
+BUS: D3
+GPT3: GTIOC3B
+GPT_POEGA: GTETRGA
+IRQ: IRQ27
+SCI0: TXD0
+SDHI0: SD0DAT4
+SDRAM: DQ3
+SPI0: SSLA2
+ULPT0: ULPTOB0-DS","","I","","",
+"P113","A2","SPI0_SSLA1","","GTIOC2A","RXD0","","SSLA1","","IRQ28","D4","DQ4","ADST1","ULPTOA0-DS","GTETRGB","SD0DAT5","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADST1
+BUS: D4
+GPT2: GTIOC2A
+GPT_POEGB: GTETRGB
+IRQ: IRQ28
+SCI0: RXD0
+SDHI0: SD0DAT5
+SDRAM: DQ4
+SPI0: SSLA1
+ULPT0: ULPTOA0-DS","","O","","",
+"P114","B3","SPI0_SSLA0","","GTIOC2B","DE0/CTS_RTS0","","SSLA0","","IRQ30-DS","D5","DQ5","","","","SD0DAT6","","","","","","","","","","ADSYNC","GTETRGC","","","","","","","","","","","","","","","M","None","Peripheral mode","","","ADC(Digital): ADSYNC
+BUS: D5
+GPT2: GTIOC2B
+GPT_POEGC: GTETRGC
+IRQ: IRQ30-DS
+SCI0: CTS_RTS0
+SCI0: DE0
+SDHI0: SD0DAT6
+SDRAM: DQ5
+SPI0: SSLA0","","IO","","",
+"P115","A3","SPI0_MOSI0","","GTIOC5A","CTS0","","MOSI0","","IRQ31-DS","D6","DQ6","","","","SD0DAT7","GTETRGD","AD0FLAG1","","","","","","","","","","","","","","","","","","","","","","","","M","None","Peripheral mode","","","ADC0(Digital): AD0FLAG1
+BUS: D6
+GPT5: GTIOC5A
+GPT_POEGD: GTETRGD
+IRQ: IRQ31-DS
+SCI0: CTS0
+SDHI0: SD0DAT7
+SDRAM: DQ6
+SPI0: MOSI0","","IO","","",
+"P200","C5","","","","","","","","NMI","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","IRQ: NMI","","None","","",
+"P201","E6","CGC_MD","MD","","","","","","IRQ4","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","CGC: MD
+IRQ: IRQ4","","IO","","",
+"P202","U2","GPT5_GTIOC5B","","GTIOC5B","DE4/CTS_RTS4","CRX0","MOSI0","","IRQ3-DS","","","","ULPTOB1","","SD1CMD","","","","","","","","","USB_EXICEN","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD0: CRX0
+GPT5: GTIOC5B
+IRQ: IRQ3-DS
+SCI4: CTS_RTS4
+SCI4: DE4
+SDHI1: SD1CMD
+SPI0: MOSI0
+ULPT1: ULPTOB1
+USB FS: USB_EXICEN","","IO","","",
+"P203","T2","GPT5_GTIOC5A","","GTIOC5A","RXD4","CTX0","RSPCK0","","IRQ2-DS","","","","ULPTOA1","","SD1CLK","","","","","","","","","USB_VBUSEN","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD0: CTX0
+GPT5: GTIOC5A
+IRQ: IRQ2-DS
+SCI4: RXD4
+SDHI1: SD1CLK
+SPI0: RSPCK0
+ULPT1: ULPTOA1
+USB FS: USB_VBUSEN","","IO","","",
+"P204","U1","GPT4_GTIOC4B","","GTIOC4B","DE4/SCK4","","SSLA0","GTIW","IRQ26","","","","","","SD1WP","","","","","","","","","USB_OVRCURB","","","AGTIO1","","","","CACREF","","","","SDA1","","","","","","L","None","Peripheral mode","","","AGT1: AGTIO1
+CAC: CACREF
+GPT4: GTIOC4B
+GPT_OPS: GTIW
+IIC1: SDA1
+IRQ: IRQ26
+SCI4: DE4
+SCI4: SCK4
+SDHI1: SD1WP
+SPI0: SSLA0
+USB FS: USB_OVRCURB","","IO","","",
+"P205","T1","GPT4_GTIOC4A","","GTIOC4A","TXD4","","SSLA1","GTIV","IRQ1-DS","","","","","","SD1CD","","","","","","","","","USB_OVRCURA","","","AGTO1","CLKOUT","","","","","","","SCL1","","","","","","L","None","Peripheral mode","","","AGT1: AGTO1
+CLKOUT: CLKOUT
+GPT4: GTIOC4A
+GPT_OPS: GTIV
+IIC1: SCL1
+IRQ: IRQ1-DS
+SCI4: TXD4
+SDHI1: SD1CD
+SPI0: SSLA1
+USB FS: USB_OVRCURA","","IO","","",
+"P206","B15","ESWM_GMII/MII1_ET1_RX_DV","","GTCPPO0","","","","GTIU","IRQ0-DS","CS7","","","ULPTOB1","","SD0DAT7","","","","ET1_RX_DV","RGMII1_RX_CTL","","CAT1_RX_DV","RMII1_CRS_DV","USB_VBUSEN","","","","CLKOUT","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: CS7
+CLKOUT: CLKOUT
+ESC1: CAT1_RX_DV
+ESWM_GMII/MII1: ET1_RX_DV
+ESWM_RGMII1: RGMII1_RX_CTL
+ESWM_RMII1: RMII1_CRS_DV
+GPT0: GTCPPO0
+GPT_OPS: GTIU
+IRQ: IRQ0-DS
+SDHI0: SD0DAT7
+ULPT1: ULPTOB1
+USB FS: USB_VBUSEN","","I","","",
+"P207","A17","GPIO","","GTCPPO3","","","","","IRQ25","","","","","","","","","","ET1_RXD5","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","ESWM_GMII/MII1: ET1_RXD5
+GPT3: GTCPPO3
+IRQ: IRQ25","","IO","","",
+"P208","C7","JTAG/SWD_TDI","","GTIOC1B","RXD9","CRX1","","GTOVLO","IRQ3","","","","","","","","","","","","VCOUT","","","","","","","","TDI","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD1: CRX1
+CMPOUT: VCOUT
+GPT1: GTIOC1B
+GPT_OPS: GTOVLO
+IRQ: IRQ3
+JTAG/SWD: TDI
+SCI9: RXD9","","IO","","",
+"P209","E7","JTAG/SWD_TDO","SWO","GTIOC1A","TXD9","CTX1","","GTOVUP","IRQ25","","","","","","","","","","","","","","","","","","","CLKOUT","TDO","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD1: CTX1
+CLKOUT: CLKOUT
+GPT1: GTIOC1A
+GPT_OPS: GTOVUP
+IRQ: IRQ25
+JTAG/SWD: TDO
+SCI9: TXD9
+TRACE: SWO","","IO","","",
+"P210","C6","JTAG/SWD_TMS","","GTIOC0B","CTS_RTS9/DE9","","","GTOULO","IRQ24","","","","","","","","","","","","","","","","","","","","SWDIO/TMS","","","","","","","","","","","","L","None","Peripheral mode","","","GPT0: GTIOC0B
+GPT_OPS: GTOULO
+IRQ: IRQ24
+JTAG/SWD: SWDIO
+JTAG/SWD: TMS
+SCI9: CTS_RTS9
+SCI9: DE9","","IO","","",
+"P211","D6","JTAG/SWD_TCK","","GTIOC0A","SCK9/DE9","","","GTOUUP","IRQ23","","","","","","","","","","","","","","","","","","","","SWCLK/TCK","","","","","","","","","","","","L","None","Peripheral mode","","","GPT0: GTIOC0A
+GPT_OPS: GTOUUP
+IRQ: IRQ23
+JTAG/SWD: SWCLK
+JTAG/SWD: TCK
+SCI9: DE9
+SCI9: SCK9","","IO","","",
+"P212","K17","CGC_EXTAL","EXTAL","GTIOC0B","RXD1","","","","IRQ3","","","","","","","GTETRGD","","","","","","","","","","","AGTEE1","","","","","","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTEE1
+CGC: EXTAL
+GPT0: GTIOC0B
+GPT_POEGD: GTETRGD
+IRQ: IRQ3
+SCI1: RXD1","","IO","","",
+"P213","K16","CGC_XTAL","XTAL","GTIOC0A","TXD1","","","","IRQ2","","","ADTRG1","ULPTEE0","","","","","","","","","","","","","GTETRGC","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADTRG1
+CGC: XTAL
+GPT0: GTIOC0A
+GPT_POEGC: GTETRGC
+IRQ: IRQ2
+SCI1: TXD1
+ULPT0: ULPTEE0","","IO","","",
+"P214","L16","","XCOUT","","","","","","IRQ21","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","CGC: XCOUT
+IRQ: IRQ21","","None","","",
+"P215","L17","","EXCIN/XCIN","","","","","","IRQ20","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","CGC: EXCIN
+CGC: XCIN
+IRQ: IRQ20","","None","","",
+"P300","B5","GPT3_GTIOC3A","","GTIOC3A","DE0/SCK0","","SSLA3","","IRQ4","D2","DQ2","","ULPTEVI0-DS","","SD0DAT3","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D2
+GPT3: GTIOC3A
+IRQ: IRQ4
+SCI0: DE0
+SCI0: SCK0
+SDHI0: SD0DAT3
+SDRAM: DQ2
+SPI0: SSLA3
+ULPT0: ULPTEVI0-DS","","IO","","",
+"P301","C4","","","GTIOC4B","TXD6","","","GTOULO","IRQ6","D1","DQ1","","ULPTEE0-DS","","SD0DAT2","","","","","","","","","","","","AGTIO0","","","","","","","","","","","","","","","","Disabled","","","AGT0: AGTIO0
+BUS: D1
+GPT4: GTIOC4B
+GPT_OPS: GTOULO
+IRQ: IRQ6
+SCI6: TXD6
+SDHI0: SD0DAT2
+SDRAM: DQ1
+ULPT0: ULPTEE0-DS","","None","","",
+"P302","A5","","","GTIOC4A","RXD6","","","GTOUUP","IRQ5","D0","DQ0","","ULPTO0-DS","","SD0DAT1","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","BUS: D0
+GPT4: GTIOC4A
+GPT_OPS: GTOUUP
+IRQ: IRQ5
+SCI6: RXD6
+SDHI0: SD0DAT1
+SDRAM: DQ0
+ULPT0: ULPTO0-DS","","None","","",
+"P303","B6","","","GTIOC7B","SCK6/DE6","","","","IRQ29-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT7: GTIOC7B
+IRQ: IRQ29-DS
+SCI6: DE6
+SCI6: SCK6","","None","","",
+"P304","D10","ESWM_GMII/MII1_ET1_TXD3","TDATA3","GTIOC7A","","","","GTOVLO","IRQ9","","","","ULPTO1","","SD0DAT0","","","","ET1_TXD3","RGMII1_TXD3","","CAT1_ETXD3","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ESC1: CAT1_ETXD3
+ESWM_GMII/MII1: ET1_TXD3
+ESWM_RGMII1: RGMII1_TXD3
+GPT7: GTIOC7A
+GPT_OPS: GTOVLO
+IRQ: IRQ9
+SDHI0: SD0DAT0
+TRACE: TDATA3
+ULPT1: ULPTO1","","O","","",
+"P305","C10","ESWM_GMII/MII1_ET1_TXD2","TDATA2","GTCPPO12","","","","GTOVUP","IRQ8","","","","ULPTEE1","","SD0WP","","","","ET1_TXD2","RGMII1_TXD2","","CAT1_ETXD2","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ESC1: CAT1_ETXD2
+ESWM_GMII/MII1: ET1_TXD2
+ESWM_RGMII1: RGMII1_TXD2
+GPT12: GTCPPO12
+GPT_OPS: GTOVUP
+IRQ: IRQ8
+SDHI0: SD0WP
+TRACE: TDATA2
+ULPT1: ULPTEE1","","O","","",
+"P306","D11","ESWM_GMII/MII1_ET1_TXD1","TDATA1","GTCPPO11","","","","GTIW","IRQ28-DS","","","","ULPTEVI1","","SD0CD","","","","ET1_TXD1","RGMII1_TXD1","","CAT1_ETXD1","RMII1_TXD1","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ESC1: CAT1_ETXD1
+ESWM_GMII/MII1: ET1_TXD1
+ESWM_RGMII1: RGMII1_TXD1
+ESWM_RMII1: RMII1_TXD1
+GPT11: GTCPPO11
+GPT_OPS: GTIW
+IRQ: IRQ28-DS
+SDHI0: SD0CD
+TRACE: TDATA1
+ULPT1: ULPTEVI1","","O","","",
+"P307","C11","ESWM_GMII/MII1_ET1_TXD0","TDATA0","GTCPPO10","DE6/CTS_RTS6","","","GTIV","IRQ27-DS","","","","ULPTOA1","","SD0CMD","","","","ET1_TXD0","RGMII1_TXD0","","CAT1_ETXD0","RMII1_TXD0","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ESC1: CAT1_ETXD0
+ESWM_GMII/MII1: ET1_TXD0
+ESWM_RGMII1: RGMII1_TXD0
+ESWM_RMII1: RMII1_TXD0
+GPT10: GTCPPO10
+GPT_OPS: GTIV
+IRQ: IRQ27-DS
+SCI6: CTS_RTS6
+SCI6: DE6
+SDHI0: SD0CMD
+TRACE: TDATA0
+ULPT1: ULPTOA1","","O","","",
+"P308","C9","ESWM_GMII/MII1_ET1_TX_ER","TCLK","GTCPPO9","CTS3","","","GTIU","IRQ26-DS","","","","ULPTOB1","","SD0CLK","","","","ET1_TX_ER","","","","","","","","","","","ETHPHYCLK","","","","","","","","","","","L","None","Peripheral mode","","","ESWM_GMII/MII1: ET1_TX_ER
+ETHPHYCLK: ETHPHYCLK
+GPT9: GTCPPO9
+GPT_OPS: GTIU
+IRQ: IRQ26-DS
+SCI3: CTS3
+SDHI0: SD0CLK
+TRACE: TCLK
+ULPT1: ULPTOB1","","O","","",
+"P309","A12","GPIO","","GTCPPO8","CTS9","","","","IRQ25-DS","","","","","","","","","","ET1_GTX_CLK","RGMII1_TXC","VCOUT","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","CMPOUT: VCOUT
+ESWM_GMII/MII1: ET1_GTX_CLK
+ESWM_RGMII1: RGMII1_TXC
+GPT8: GTCPPO8
+IRQ: IRQ25-DS
+SCI9: CTS9","","IO","","",
+"P310","E10","ESWM_GMII/MII1_ET1_TX_EN","","GTCPPO7","TXD3","","","","IRQ24-DS","","","","","","","","","","ET1_TX_EN","RGMII1_TX_CTL","","CAT1_TX_EN","RMII1_TX_EN","","","","AGTEE1","","","","","","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTEE1
+ESC1: CAT1_TX_EN
+ESWM_GMII/MII1: ET1_TX_EN
+ESWM_RGMII1: RGMII1_TX_CTL
+ESWM_RMII1: RMII1_TX_EN
+GPT7: GTCPPO7
+IRQ: IRQ24-DS
+SCI3: TXD3","","O","","",
+"P311","B12","ESWM_GMII/MII1_ET1_TX_CLK","","GTCPPO6/GTADSM1","SCK3/DE3","CRX0","","","IRQ23-DS","","","","","","","","","","ET1_TX_CLK","","","CAT1_TX_CLK","","","","","AGTOB1","","","","","","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTOB1
+CANFD0: CRX0
+ESC1: CAT1_TX_CLK
+ESWM_GMII/MII1: ET1_TX_CLK
+GPT: GTADSM1
+GPT6: GTCPPO6
+IRQ: IRQ23-DS
+SCI3: DE3
+SCI3: SCK3","","I","","",
+"P312","C13","ESWM_GMII/MII1_ET1_RX_ER","","GTCPPO5/GTADSM0","CTS_RTS3/DE3","CTX0","","","IRQ22-DS","","","","","","","","","","ET1_RX_ER","","","CAT1_RX_ER","RMII1_RX_ER","","","","AGTOA1","","","","","","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTOA1
+CANFD0: CTX0
+ESC1: CAT1_RX_ER
+ESWM_GMII/MII1: ET1_RX_ER
+ESWM_RMII1: RMII1_RX_ER
+GPT: GTADSM0
+GPT5: GTCPPO5
+IRQ: IRQ22-DS
+SCI3: CTS_RTS3
+SCI3: DE3","","I","","",
+"P313","T3","GPIO","","","TXD3","","MISO0","","IRQ27","","","","","","SD1DAT0","","","","","","","","","USB_ID","","","","","","","","","","","","","","","","","","None","Input mode","","","IRQ: IRQ27
+SCI3: TXD3
+SDHI1: SD1DAT0
+SPI0: MISO0
+USB FS: USB_ID","","IO","","",
+"P314","U3","","","","RXD3","","SSLA2","","IRQ28","","","","","","SD1DAT1","","ADTRG0","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ADC0(Digital): ADTRG0
+IRQ: IRQ28
+SCI3: RXD3
+SDHI1: SD1DAT1
+SPI0: SSLA2","","None","","",
+"P315","R2","SPI0_SSLA3","","","SCK3/DE3","","SSLA3","","IRQ29","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","IRQ: IRQ29
+SCI3: DE3
+SCI3: SCK3
+SPI0: SSLA3","","O","","",
+"P400","P17","SCI1_TXD1","","GTIOC6A","TXD1","","","","IRQ0","","","ADTRG1","","","SD1CLK","","","","","","","","","","","","AGTIO1","","","","","","","","","","I3C_SCL0","","","","L","None","Peripheral mode","","","ADC1(Digital): ADTRG1
+AGT1: AGTIO1
+GPT6: GTIOC6A
+I3C0: I3C_SCL0
+IRQ: IRQ0
+SCI1: TXD1
+SDHI1: SD1CLK","","O","","",
+"P401","N17","SCI1_RXD1","","GTIOC6B","RXD1","CTX0","","","IRQ5-DS","","","","","","SD1CMD","","","GTETRGA","","","","","","","","","","","","","","","","","","","I3C_SDA0","","","","L","None","Peripheral mode","","","CANFD0: CTX0
+GPT6: GTIOC6B
+GPT_POEGA: GTETRGA
+I3C0: I3C_SDA0
+IRQ: IRQ5-DS
+SCI1: RXD1
+SDHI1: SD1CMD","","I","","",
+"P402","L14","","","","DE1/SCK1","CRX0","","","IRQ4-DS","","","","","","SD1DAT0","","","","ET0_LINKSTA","ET0_LINKSTA","","CAT0_LINKSTA","ET0_LINKSTA","","","","","","","","CACREF","","RTCIC0","","","","","","","","","","Disabled","","","CAC: CACREF
+CANFD0: CRX0
+ESC0: CAT0_LINKSTA
+ESWM_GMII/MII: ET0_LINKSTA
+ESWM_RGMII0: ET0_LINKSTA
+ESWM_RMII0: ET0_LINKSTA
+IRQ: IRQ4-DS
+RTC: RTCIC0
+SCI1: DE1
+SCI1: SCK1
+SDHI1: SD1DAT0","","None","","",
+"P403","H13","","","GTIOC3A","DE1/CTS_RTS1","","","","IRQ14-DS","","","","","","SD1DAT1","","AD0FLAG1","","ET1_WOL","ET1_WOL","","CATI2CCLK","ET1_WOL","","","","","","","","","","RTCIC1","","","","","","","","","","Disabled","","","ADC0(Digital): AD0FLAG1
+ESC: CATI2CCLK
+ESWM_GMII/MII: ET1_WOL
+ESWM_RGMII1: ET1_WOL
+ESWM_RMII1: ET1_WOL
+GPT3: GTIOC3A
+IRQ: IRQ14-DS
+RTC: RTCIC1
+SCI1: CTS_RTS1
+SCI1: DE1
+SDHI1: SD1DAT1","","None","","",
+"P404","J13","","","GTIOC3B","CTS1","","","","IRQ15-DS","","","AD1FLAG1","","","SD1DAT2","","","","ET0_WOL","ET0_WOL","","CATI2CDATA","ET0_WOL","","","","","","","","","DSM0DAT0","RTCIC2","","","","","","","","","","Disabled","","","ADC1(Digital): AD1FLAG1
+DSMIF0: DSM0DAT0
+ESC: CATI2CDATA
+ESWM_GMII/MII: ET0_WOL
+ESWM_RGMII0: ET0_WOL
+ESWM_RMII0: ET0_WOL
+GPT3: GTIOC3B
+IRQ: IRQ15-DS
+RTC: RTCIC2
+SCI1: CTS1
+SDHI1: SD1DAT2","","None","","",
+"P405","G12","ESWM_GMII/MII0_ET0_RX_DV","","GTIOC1A","SCK2/DE2","","","","IRQ30","","","","","","SD1DAT3","","","","ET0_RX_DV","RGMII0_RX_CTL","","CAT0_RX_DV","RMII0_CRS_DV","","","","AGTIO1","","","","","DSM0DAT1","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTIO1
+DSMIF0: DSM0DAT1
+ESC0: CAT0_RX_DV
+ESWM_GMII/MII0: ET0_RX_DV
+ESWM_RGMII0: RGMII0_RX_CTL
+ESWM_RMII0: RMII0_CRS_DV
+GPT1: GTIOC1A
+IRQ: IRQ30
+SCI2: DE2
+SCI2: SCK2
+SDHI1: SD1DAT3","","I","","",
+"P406","F14","ESWM_GMII/MII0_ET0_RXD3","","GTIOC1B","TXD2","","SSLA3","","IRQ31","","","","","","SD1CD","","","","ET0_RXD3","RGMII0_RXD3","","CAT0_ERXD3","","","","","","","","","","DSM0DAT2","","","","","","","","","L","None","Peripheral mode","","","DSMIF0: DSM0DAT2
+ESC0: CAT0_ERXD3
+ESWM_GMII/MII0: ET0_RXD3
+ESWM_RGMII0: RGMII0_RXD3
+GPT1: GTIOC1B
+IRQ: IRQ31
+SCI2: TXD2
+SDHI1: SD1CD
+SPI0: SSLA3","","I","","",
+"P407","R17","USB FS_USB_VBUS","","GTIOC10B","SCK1/DE1","","","","IRQ22","CS6","","","","","","","ADTRG0","","GPTP_PTPOUT3","GPTP_PTPOUT3","","CATSYNC1","GPTP_PTPOUT3","USB_VBUS","","","AGTIO0","","","","","","RTCOUT","","SDA0","","","","","","L","None","Peripheral mode","","","ADC0(Digital): ADTRG0
+AGT0: AGTIO0
+BUS: CS6
+ESC: CATSYNC1
+ESWM_GMII/MII: GPTP_PTPOUT3
+ESWM_RGMII: GPTP_PTPOUT3
+ESWM_RMII: GPTP_PTPOUT3
+GPT10: GTIOC10B
+IIC0: SDA0
+IRQ: IRQ22
+RTC: RTCOUT
+SCI1: DE1
+SCI1: SCK1
+USB FS: USB_VBUS","","IO","","",
+"P408","M15","USB FS_USB_VBUSEN","","GTIOC10A","RXD3","","","GTOWLO","IRQ7","A17","","","ULPTOB0","","","","","","GPTP_PTPOUT2","GPTP_PTPOUT2","","CATRESETOUT","GPTP_PTPOUT2","USB_VBUSEN","ADSYNC","","","","","","","","","","SCL0","","","","","","L","None","Peripheral mode","","","ADC(Digital): ADSYNC
+BUS: A17
+ESC: CATRESETOUT
+ESWM_GMII/MII: GPTP_PTPOUT2
+ESWM_RGMII: GPTP_PTPOUT2
+ESWM_RMII: GPTP_PTPOUT2
+GPT10: GTIOC10A
+GPT_OPS: GTOWLO
+IIC0: SCL0
+IRQ: IRQ7
+SCI3: RXD3
+ULPT0: ULPTOB0
+USB FS: USB_VBUSEN","","IO","","",
+"P409","R16","USB FS_USB_OVRCURA-DS","","","TXD3","","","GTOWUP","IRQ6","A18","","ADST1","ULPTOA0","","","","","","GPTP0_CAPTURE","GPTP0_CAPTURE","","CATI2CDATA","GPTP0_CAPTURE","USB_OVRCURA-DS","","","","","","","","","","","SDA0","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADST1
+BUS: A18
+ESC: CATI2CDATA
+ESWM_GMII/MII: GPTP0_CAPTURE
+ESWM_RGMII0: GPTP0_CAPTURE
+ESWM_RMII0: GPTP0_CAPTURE
+GPT_OPS: GTOWUP
+IIC0: SDA0
+IRQ: IRQ6
+SCI3: TXD3
+ULPT0: ULPTOA0
+USB FS: USB_OVRCURA-DS","","IO","","",
+"P410","K13","GPIO","","GTIOC9B","DE3/SCK3","","","GTOVLO","IRQ5","A19","","","","","","","ADST0","","GPTP0_MATCH","GPTP0_MATCH","","CATI2CCLK","GPTP0_MATCH","USB_OVRCURB-DS","","","AGTOB1","","","","","","","","SCL0","","","","","","L","","Output mode (Initial Low)","","","ADC0(Digital): ADST0
+AGT1: AGTOB1
+BUS: A19
+ESC: CATI2CCLK
+ESWM_GMII/MII: GPTP0_MATCH
+ESWM_RGMII0: GPTP0_MATCH
+ESWM_RMII0: GPTP0_MATCH
+GPT9: GTIOC9B
+GPT_OPS: GTOVLO
+IIC0: SCL0
+IRQ: IRQ5
+SCI3: DE3
+SCI3: SCK3
+USB FS: USB_OVRCURB-DS","","IO","","",
+"P411","M14","GPIO","","GTIOC9A","DE3/CTS_RTS3","","","GTOVUP","IRQ4","A20","","","","","","","","","GPTP_PTPOUT1","GPTP_PTPOUT1","","","GPTP_PTPOUT1","USB_ID","","","AGTOA1","","","","CACREF","","","","","","","","","","","None","Input mode","","","AGT1: AGTOA1
+BUS: A20
+CAC: CACREF
+ESWM_GMII/MII: GPTP_PTPOUT1
+ESWM_RGMII: GPTP_PTPOUT1
+ESWM_RMII: GPTP_PTPOUT1
+GPT9: GTIOC9A
+GPT_OPS: GTOVUP
+IRQ: IRQ4
+SCI3: CTS_RTS3
+SCI3: DE3
+USB FS: USB_ID","","IO","","",
+"P412","M12","GPIO","","GTCPPO8","CTS3","","","GTOULO","IRQ20-DS","A21","","","","","","","","","GPTP_PTPOUT0","GPTP_PTPOUT0","","","GPTP_PTPOUT0","USB_EXICEN","","","AGTEE1","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","AGT1: AGTEE1
+BUS: A21
+ESWM_GMII/MII: GPTP_PTPOUT0
+ESWM_RGMII: GPTP_PTPOUT0
+ESWM_RMII: GPTP_PTPOUT0
+GPT8: GTCPPO8
+GPT_OPS: GTOULO
+IRQ: IRQ20-DS
+SCI3: CTS3
+USB FS: USB_EXICEN","","IO","","",
+"P413","P14","GPIO","","GTCPPO7","","","","GTOUUP","IRQ18","A22","","","ULPTEE1","","","","","","ET_TAS_STA3","ET_TAS_STA3","","","ET_TAS_STA3","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","BUS: A22
+ESWM_GMII/MII: ET_TAS_STA3
+ESWM_RGMII: ET_TAS_STA3
+ESWM_RMII: ET_TAS_STA3
+GPT7: GTCPPO7
+GPT_OPS: GTOUUP
+IRQ: IRQ18
+ULPT1: ULPTEE1","","IO","","",
+"P414","L13","SCI4_RXD4","","GTIOC0B","RXD4","CRX1","SSLB0","","IRQ9","A23","","","","","","","","","ET1_MDIO","ET1_MDIO","","CATLATCH1","ET1_MDIO","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A23
+CANFD1: CRX1
+ESC: CATLATCH1
+ESWM_GMII/MII: ET1_MDIO
+ESWM_RGMII1: ET1_MDIO
+ESWM_RMII1: ET1_MDIO
+GPT0: GTIOC0B
+IRQ: IRQ9
+SCI4: RXD4
+SPI1: SSLB0","","I","","",
+"P415","R15","SCI4_TXD4","","GTIOC0A","TXD4","CTX1","RSPCK1","","IRQ8","WAIT","","","","","","","","","ET1_MDC","ET1_MDC","","CATLATCH0","ET1_MDC","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: WAIT
+CANFD1: CTX1
+ESC: CATLATCH0
+ESWM_GMII/MII: ET1_MDC
+ESWM_RGMII1: ET1_MDC
+ESWM_RMII1: ET1_MDC
+GPT0: GTIOC0A
+IRQ: IRQ8
+SCI4: TXD4
+SPI1: RSPCK1","","O","","",
+"P500","U7","ADC0_AN021","","GTIOC11B","RXD8","","","","IRQ24","","","","","","SD1DAT5","","","","","","","","","USB_VBUSEN","","","","","","","CACREF","","","","","AN021/AN021","","","","","","","Analog mode","","","ADC0: AN021
+ADC1: AN021
+CAC: CACREF
+GPT11: GTIOC11B
+IRQ: IRQ24
+SCI8: RXD8
+SDHI1: SD1DAT5
+USB FS: USB_VBUSEN","","I","","",
+"P501","R8","ADC0_AN020","","GTIOC12A","TXD8","","","","IRQ25","","","","","","SD1DAT6","","","","","","","","","USB_OVRCURA","","","","","","","","","","","","AN020/AN020","","","","","","","Analog mode","","","ADC0: AN020
+ADC1: AN020
+GPT12: GTIOC12A
+IRQ: IRQ25
+SCI8: TXD8
+SDHI1: SD1DAT6
+USB FS: USB_OVRCURA","","I","","",
+"P502","T7","ADC0_AN019","","GTIOC12B","SCK8/DE8","","","","IRQ26","","","","","","SD1DAT7","","","","","","","","","USB_OVRCURB","","","","","","","","","","","","AN019/AN019","","","","","","","Analog mode","","","ADC0: AN019
+ADC1: AN019
+GPT12: GTIOC12B
+IRQ: IRQ26
+SCI8: DE8
+SCI8: SCK8
+SDHI1: SD1DAT7
+USB FS: USB_OVRCURB","","I","","",
+"P503","H2","GPIO","","GTCPPO6","","","","GTOUUP","IRQ6","A6","A6","","","","SD0CD","","","","","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","BUS: A6
+GPT6: GTCPPO6
+GPT_OPS: GTOUUP
+IRQ: IRQ6
+SDHI0: SD0CD
+SDRAM: A6","","IO","","",
+"P504","H1","GPIO","","GTCPPO1","","","","GTOULO","IRQ7","A7","A7","","","","SD0WP","","","","","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","BUS: A7
+GPT1: GTCPPO1
+GPT_OPS: GTOULO
+IRQ: IRQ7
+SDHI0: SD0WP
+SDRAM: A7","","IO","","",
+"P505","H3","GPIO","","GTCPPO2","","","","GTOWUP","IRQ8","A8","A8","","","","SD0CLK","","","","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","BUS: A8
+GPT2: GTCPPO2
+GPT_OPS: GTOWUP
+IRQ: IRQ8
+SDHI0: SD0CLK
+SDRAM: A8","","IO","","",
+"P506","J1","","","GTCPPO3","","","","GTOWLO","IRQ9","A9","A9","","","","SD0CMD","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","BUS: A9
+GPT3: GTCPPO3
+GPT_OPS: GTOWLO
+IRQ: IRQ9
+SDHI0: SD0CMD
+SDRAM: A9","","None","","",
+"P507","J2","GPT0_GTIOC0A","","GTADSM0/GTIOC0A","DE7/CTS_RTS7","","","","IRQ10","A10","A10","","","","","","","","ET_TAS_STA0","ET_TAS_STA0","","","ET_TAS_STA0","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A10
+ESWM_GMII/MII: ET_TAS_STA0
+ESWM_RGMII: ET_TAS_STA0
+ESWM_RMII: ET_TAS_STA0
+GPT: GTADSM0
+GPT0: GTIOC0A
+IRQ: IRQ10
+SCI7: CTS_RTS7
+SCI7: DE7
+SDRAM: A10","","IO","","",
+"P508","J3","GPT0_GTIOC0B","","GTADSM1/GTIOC0B","CTS5","","","","IRQ1","A11","A11","","","","","","","","ET_TAS_STA1","ET_TAS_STA1","","","ET_TAS_STA1","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A11
+ESWM_GMII/MII: ET_TAS_STA1
+ESWM_RGMII: ET_TAS_STA1
+ESWM_RMII: ET_TAS_STA1
+GPT: GTADSM1
+GPT0: GTIOC0B
+IRQ: IRQ1
+SCI5: CTS5
+SDRAM: A11","","IO","","",
+"P509","J4","GPIO","","GTIOC1A","DE5/CTS_RTS5","","","","IRQ2","A12","A12","","ULPTEVI1","","","","","","ET_TAS_STA2","ET_TAS_STA2","","","ET_TAS_STA2","","","","","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","BUS: A12
+ESWM_GMII/MII: ET_TAS_STA2
+ESWM_RGMII: ET_TAS_STA2
+ESWM_RMII: ET_TAS_STA2
+GPT1: GTIOC1A
+IRQ: IRQ2
+SCI5: CTS_RTS5
+SCI5: DE5
+SDRAM: A12
+ULPT1: ULPTEVI1","","IO","","",
+"P510","K3","GPIO","","GTIOC1B","RXD5","","","","IRQ3","A13","A13","","ULPTEVI0","","","","","","ET_TAS_STA3","ET_TAS_STA3","","","ET_TAS_STA3","","","","","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","BUS: A13
+ESWM_GMII/MII: ET_TAS_STA3
+ESWM_RGMII: ET_TAS_STA3
+ESWM_RMII: ET_TAS_STA3
+GPT1: GTIOC1B
+IRQ: IRQ3
+SCI5: RXD5
+SDRAM: A13
+ULPT0: ULPTEVI0","","IO","","",
+"P511","U15","","","GTIOC0B","DE8/CTS_RTS8","CRX1","","","IRQ15","","","","","","","","","","ET1_LINKSTA","ET1_LINKSTA","","CAT1_LINKSTA","ET1_LINKSTA","","","","","","","","","","","","SDA1","","","","","","","","Disabled","","","CANFD1: CRX1
+ESC1: CAT1_LINKSTA
+ESWM_GMII/MII: ET1_LINKSTA
+ESWM_RGMII1: ET1_LINKSTA
+ESWM_RMII1: ET1_LINKSTA
+GPT0: GTIOC0B
+IIC1: SDA1
+IRQ: IRQ15
+SCI8: CTS_RTS8
+SCI8: DE8","","None","","",
+"P512","P13","GPIO","","GTIOC0A","CTS8","CTX1","","","IRQ14","","","","","","","","","","ET1_INT","ET1_INT","","","ET1_INT","","","","","","","","","","","","SCL1","","","","","","L","","Output mode (Initial Low)","","","CANFD1: CTX1
+ESWM_GMII/MII: ET1_INT
+ESWM_RGMII1: ET1_INT
+ESWM_RMII1: ET1_INT
+GPT0: GTIOC0A
+IIC1: SCL1
+IRQ: IRQ14
+SCI8: CTS8","","IO","","",
+"P513","R13","ADC0_AN016","","GTIOC13B","DE8/SCK8","","","","IRQ31","","","","","","","","","","ET0_INT","ET0_INT","","","ET0_INT","","","","","","","","","","","","","AN016/AN016","","IVCMP0","","","","","Analog mode","","","ACMPHS: IVCMP0
+ADC0: AN016
+ADC1: AN016
+ESWM_GMII/MII: ET0_INT
+ESWM_RGMII0: ET0_INT
+ESWM_RMII0: ET0_INT
+GPT13: GTIOC13B
+IRQ: IRQ31
+SCI8: DE8
+SCI8: SCK8","","I","","",
+"P514","R14","IIC2_SDA2","","GTIOC13B","SCK4/DE4","","","","IRQ13","","","","","","","","","","ET_TAS_STA1","ET_TAS_STA1","","","ET_TAS_STA1","","","","","","","","","","","","SDA2","","","","","","M","None","Peripheral mode","","","ESWM_GMII/MII: ET_TAS_STA1
+ESWM_RGMII: ET_TAS_STA1
+ESWM_RMII: ET_TAS_STA1
+GPT13: GTIOC13B
+IIC2: SDA2
+IRQ: IRQ13
+SCI4: DE4
+SCI4: SCK4","","IO","","",
+"P515","P15","IIC2_SCL2","","GTIOC13A","CTS_RTS4/DE4","","","","IRQ12","","","","","","","","","","ET_TAS_STA0","ET_TAS_STA0","","","ET_TAS_STA0","","","","","","","","","","","","SCL2","","","","","","M","None","Peripheral mode","","","ESWM_GMII/MII: ET_TAS_STA0
+ESWM_RGMII: ET_TAS_STA0
+ESWM_RMII: ET_TAS_STA0
+GPT13: GTIOC13A
+IIC2: SCL2
+IRQ: IRQ12
+SCI4: CTS_RTS4
+SCI4: DE4","","IO","","",
+"P600","P3","GPT6_GTIOC6B","","GTIOC6B","","","","","IRQ30","","","","ULPTEVI1-DS","","","","","","ET1_WOL","ET1_WOL","","","ET1_WOL","","","","","","","","CACREF","","","OM_0_RSTO1","","","","","","","L","None","Peripheral mode","","","CAC: CACREF
+ESWM_GMII/MII: ET1_WOL
+ESWM_RGMII1: ET1_WOL
+ESWM_RMII1: ET1_WOL
+GPT6: GTIOC6B
+IRQ: IRQ30
+OSPI0: OM_0_RSTO1
+ULPT1: ULPTEVI1-DS","","IO","","",
+"P601","P4","GPT6_GTIOC6A","","GTIOC6A","SCK0/DE0","","","","IRQ29","","","","ULPTEVI0","","","","","","","","","","","","","","","","","","","","RTCOUT","OM_0_WP1","","","","","","","L","None","Peripheral mode","","","GPT6: GTIOC6A
+IRQ: IRQ29
+OSPI0: OM_0_WP1
+RTC: RTCOUT
+SCI0: DE0
+SCI0: SCK0
+ULPT0: ULPTEVI0","","IO","","",
+"P602","P2","GPT7_GTIOC7B","","GTIOC7B","RXD0","","","","IRQ28","","","","ULPTEE0","","","","","","","","","","","","","","","","","","","","","OM_1_SCLKN","","","","","","","L","None","Peripheral mode","","","GPT7: GTIOC7B
+IRQ: IRQ28
+OSPI1: OM_1_SCLKN
+SCI0: RXD0
+ULPT0: ULPTEE0","","IO","","",
+"P603","P1","GPT7_GTIOC7A","","GTIOC7A","TXD0","","","","IRQ27","","","","ULPTO0","","","","","","","","","","","","","","","","","","","","","OM_1_SCLK","","","","","","","L","None","Peripheral mode","","","GPT7: GTIOC7A
+IRQ: IRQ27
+OSPI1: OM_1_SCLK
+SCI0: TXD0
+ULPT0: ULPTO0","","IO","","",
+"P604","N2","GPT8_GTIOC8B","","GTIOC8B","CTS_RTS0/DE0","","","","IRQ26","","","","","","","","","","","","","","","","","","","","","","","","","OM_1_SIO7","","","","","","","L","None","Peripheral mode","","","GPT8: GTIOC8B
+IRQ: IRQ26
+OSPI1: OM_1_SIO7
+SCI0: CTS_RTS0
+SCI0: DE0","","IO","","",
+"P605","N1","GPT8_GTIOC8A","","GTIOC8A","CTS0","","","","IRQ25","","","","","","","","","","","","","","","","","","","","","","","","","OM_1_SIO1","","","","","","","L","None","Peripheral mode","","","GPT8: GTIOC8A
+IRQ: IRQ25
+OSPI1: OM_1_SIO1
+SCI0: CTS0","","IO","","",
+"P606","N3","","","","","","","","IRQ24","BC3/WR3","","","","","","","","","","","","","","","","","","","","","","","","OM_1_SIO6","","","","","","","","","Disabled","","","BUS: BC3
+BUS: WR3
+IRQ: IRQ24
+OSPI1: OM_1_SIO6","","None","","",
+"P607","M2","","","","","","","","IRQ23","D31","DQ31","","","","","","","","","","","","","","","","","","","","","","","OM_1_DQS","","","","","","","","","Disabled","","","BUS: D31
+IRQ: IRQ23
+OSPI1: OM_1_DQS
+SDRAM: DQ31","","None","","",
+"P608","K2","","","GTCPPO4","TXD5","","","GTOWUP","IRQ22","A14","A14","","","","","","","","","","","","","","","","","","","","CACREF","","","","","","","","","","","","Disabled","","","BUS: A14
+CAC: CACREF
+GPT4: GTCPPO4
+GPT_OPS: GTOWUP
+IRQ: IRQ22
+SCI5: TXD5
+SDRAM: A14","","None","","",
+"P609","A1","SPI0_MISO0","","GTIOC5B","TXD0","CTX1","MISO0","GTIU","IRQ29","D7","DQ7","AD1FLAG1","ULPTOA1-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","","M","None","Peripheral mode","","","ADC1(Digital): AD1FLAG1
+BUS: D7
+CANFD1: CTX1
+GPT5: GTIOC5B
+GPT_OPS: GTIU
+IRQ: IRQ29
+SCI0: TXD0
+SDRAM: DQ7
+SPI0: MISO0
+ULPT1: ULPTOA1-DS","","IO","","",
+"P610","D3","SPI0_RSPCK0","","GTIOC4A","RXD0","CRX1","RSPCK0","GTOUUP","IRQ16","D12","DQ12","","ULPTOB1-DS","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D12
+CANFD1: CRX1
+GPT4: GTIOC4A
+GPT_OPS: GTOUUP
+IRQ: IRQ16
+SCI0: RXD0
+SDRAM: DQ12
+SPI0: RSPCK0
+ULPT1: ULPTOB1-DS","","IO","","",
+"P611","D2","GPIO","","GTIOC4B","SCK0/DE0","","MOSI0","GTOULO","IRQ17","D13","DQ13","","","","","","","","","","","","","","","","","CLKOUT","","","CACREF","","","","","","","","","","L","","Output mode (Initial Low)","","","BUS: D13
+CAC: CACREF
+CLKOUT: CLKOUT
+GPT4: GTIOC4B
+GPT_OPS: GTOULO
+IRQ: IRQ17
+SCI0: DE0
+SCI0: SCK0
+SDRAM: DQ13
+SPI0: MOSI0","","IO","","",
+"P612","E4","GPT9_GTIOC9A","","GTIOC9A","CTS_RTS0/DE0","","SSLA0","","IRQ18","D14","DQ14","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D14
+GPT9: GTIOC9A
+IRQ: IRQ18
+SCI0: CTS_RTS0
+SCI0: DE0
+SDRAM: DQ14
+SPI0: SSLA0","","IO","","",
+"P613","C2","GPT9_GTIOC9B","","GTIOC9B","CTS0","","","","IRQ19","D15","DQ15","","","","","","","GTETRGA","","","","","","","","","AGTO1","","","","","","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTO1
+BUS: D15
+GPT9: GTIOC9B
+GPT_POEGA: GTETRGA
+IRQ: IRQ19
+SCI0: CTS0
+SDRAM: DQ15","","IO","","",
+"P614","E3","GPIO","","GTCPPO9","RXD7","","","","IRQ20","WR/WR0","DQM0","","","GTETRGB","","","","","","","","","","","","","AGTO0","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","AGT0: AGTO0
+BUS: WR
+BUS: WR0
+GPT9: GTCPPO9
+GPT_POEGB: GTETRGB
+IRQ: IRQ20
+SCI7: RXD7
+SDRAM: DQM0","","IO","","",
+"P615","E2","GPT_POEGC_GTETRGC","","GTCPPO10","TXD7","","","","IRQ7","BC2/WR2","DQM2","","","","","","","","","","","","","","","GTETRGC","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: BC2
+BUS: WR2
+GPT10: GTCPPO10
+GPT_POEGC: GTETRGC
+IRQ: IRQ7
+SCI7: TXD7
+SDRAM: DQM2","","I","","",
+"P700","F12","ESWM_GMII/MII0_ET0_RXD2","","GTIOC5A","RXD2","","MISO0","","IRQ16-DS","","","","","","SD1WP","","","","ET0_RXD2","RGMII0_RXD2","","CAT0_ERXD2","","","","","","","","","","DSM0CLK0","","","","","","","","","L","None","Peripheral mode","","","DSMIF0: DSM0CLK0
+ESC0: CAT0_ERXD2
+ESWM_GMII/MII0: ET0_RXD2
+ESWM_RGMII0: RGMII0_RXD2
+GPT5: GTIOC5A
+IRQ: IRQ16-DS
+SCI2: RXD2
+SDHI1: SD1WP
+SPI0: MISO0","","I","","",
+"P701","F15","ESWM_GMII/MII0_ET0_RXD1","","GTIOC5B","CTS_RTS2/DE2","","MOSI0","","IRQ17-DS","","","","ULPTO1","","SD1DAT4","","","","ET0_RXD1","RGMII0_RXD1","","CAT0_ERXD1","RMII0_RXD1","","","","","","","","","DSM0CLK1","","","","","","","","","L","None","Peripheral mode","","","DSMIF0: DSM0CLK1
+ESC0: CAT0_ERXD1
+ESWM_GMII/MII0: ET0_RXD1
+ESWM_RGMII0: RGMII0_RXD1
+ESWM_RMII0: RMII0_RXD1
+GPT5: GTIOC5B
+IRQ: IRQ17-DS
+SCI2: CTS_RTS2
+SCI2: DE2
+SDHI1: SD1DAT4
+SPI0: MOSI0
+ULPT1: ULPTO1","","I","","",
+"P702","F13","ESWM_GMII/MII0_ET0_RXD0","","GTIOC6A","CTS2","","RSPCK0","","IRQ18-DS","","","","ULPTO0","","SD1DAT5","","","","ET0_RXD0","RGMII0_RXD0","","CAT0_ERXD0","RMII0_RXD0","","","","","","","","","DSM0CLK2","","","","","","","","","L","None","Peripheral mode","","","DSMIF0: DSM0CLK2
+ESC0: CAT0_ERXD0
+ESWM_GMII/MII0: ET0_RXD0
+ESWM_RGMII0: RGMII0_RXD0
+ESWM_RMII0: RMII0_RXD0
+GPT6: GTIOC6A
+IRQ: IRQ18-DS
+SCI2: CTS2
+SDHI1: SD1DAT5
+SPI0: RSPCK0
+ULPT0: ULPTO0","","I","","",
+"P703","G14","ESWM_GMII/MII0_ET0_RX_CLK","","GTIOC6B","","","SSLA0","","IRQ19-DS","","","","","","SD1DAT6","","","","ET0_RX_CLK","RGMII0_RXC","VCOUT","CAT0_RX_CLK","RMII0_REF50CK","","","","AGTO1","","","","","DSM1DAT0","","","","","","","","","L","None","Peripheral mode","","","AGT1: AGTO1
+CMPOUT: VCOUT
+DSMIF1: DSM1DAT0
+ESC0: CAT0_RX_CLK
+ESWM_GMII/MII0: ET0_RX_CLK
+ESWM_RGMII0: RGMII0_RXC
+ESWM_RMII0: RMII0_REF50CK
+GPT6: GTIOC6B
+IRQ: IRQ19-DS
+SDHI1: SD1DAT6
+SPI0: SSLA0","","I","","",
+"P704","G13","ESWM_GMII/MII0_ET0_RX_ER","","GTCPPO0/GTADSM0","","CTX0","SSLA1","","IRQ26","","","","","","SD1DAT7","","","","ET0_RX_ER","","","CAT0_RX_ER","RMII0_RX_ER","","","","AGTO0","","","","","DSM1DAT1","","","","","","","","","L","None","Peripheral mode","","","AGT0: AGTO0
+CANFD0: CTX0
+DSMIF1: DSM1DAT1
+ESC0: CAT0_RX_ER
+ESWM_GMII/MII0: ET0_RX_ER
+ESWM_RMII0: RMII0_RX_ER
+GPT: GTADSM0
+GPT0: GTCPPO0
+IRQ: IRQ26
+SDHI1: SD1DAT7
+SPI0: SSLA1","","I","","",
+"P705","F17","ESWM_GMII/MII0_ET0_TX_EN","","GTCPPO1/GTADSM1","CTS1","CRX0","SSLA2","","IRQ19","","","","","","","","","","ET0_TX_EN","RGMII0_TX_CTL","","CAT0_TX_EN","RMII0_TX_EN","","","","AGTIO0","","","","","DSM1DAT2","","","","","","","","","L","None","Peripheral mode","","","AGT0: AGTIO0
+CANFD0: CRX0
+DSMIF1: DSM1DAT2
+ESC0: CAT0_TX_EN
+ESWM_GMII/MII0: ET0_TX_EN
+ESWM_RGMII0: RGMII0_TX_CTL
+ESWM_RMII0: RMII0_TX_EN
+GPT: GTADSM1
+GPT1: GTCPPO1
+IRQ: IRQ19
+SCI1: CTS1
+SPI0: SSLA2","","O","","",
+"P706","E17","ETHPHYCLK_ETHPHYCLK","","GTCPPO2","RXD1","","","","IRQ7","","","","","","","","","","ET0_GTX_CLK","RGMII0_TXC","","","","","","","AGTIO0","","","ETHPHYCLK","","DSM1CLK0","","","","","","","","","L","None","Peripheral mode","","","AGT0: AGTIO0
+DSMIF1: DSM1CLK0
+ESWM_GMII/MII0: ET0_GTX_CLK
+ESWM_RGMII0: RGMII0_TXC
+ETHPHYCLK: ETHPHYCLK
+GPT2: GTCPPO2
+IRQ: IRQ7
+SCI1: RXD1","","IO","","",
+"P707","F16","ESWM_GMII/MII0_ET0_TX_ER","","GTCPPO3","TXD1","","","","IRQ8","","","","","","","","","","ET0_TX_ER","","","","","","","","","","","ETHPHYCLK","","DSM1CLK1","","","","","","","","","L","None","Peripheral mode","","","DSMIF1: DSM1CLK1
+ESWM_GMII/MII0: ET0_TX_ER
+ETHPHYCLK: ETHPHYCLK
+GPT3: GTCPPO3
+IRQ: IRQ8
+SCI1: TXD1","","O","","",
+"P708","N12","ESWM_GMII/MII_ET0_MDC","","GTCPPO6","SCK4/DE4","","MOSI1","","IRQ11","BC1/WR1","","","","","","","","","ET0_MDC","ET0_MDC","","CAT0_MDC","ET0_MDC","","","","","","","","CACREF","","","","SDA2","","","","","","L","None","Peripheral mode","","","BUS: BC1
+BUS: WR1
+CAC: CACREF
+ESC: CAT0_MDC
+ESWM_GMII/MII: ET0_MDC
+ESWM_RGMII0: ET0_MDC
+ESWM_RMII0: ET0_MDC
+GPT6: GTCPPO6
+IIC2: SDA2
+IRQ: IRQ11
+SCI4: DE4
+SCI4: SCK4
+SPI1: MOSI1","","IO","","",
+"P709","P16","ESWM_GMII/MII_ET0_MDIO","","GTCPPO5","CTS_RTS4/DE4","","MISO1","","IRQ10","CS4","","","","","","","","","ET0_MDIO","ET0_MDIO","","CAT0_MDIO","ET0_MDIO","","","","","","","","","","","","SCL2","","","","","","L","None","Peripheral mode","","","BUS: CS4
+ESC: CAT0_MDIO
+ESWM_GMII/MII: ET0_MDIO
+ESWM_RGMII0: ET0_MDIO
+ESWM_RMII0: ET0_MDIO
+GPT5: GTCPPO5
+IIC2: SCL2
+IRQ: IRQ10
+SCI4: CTS_RTS4
+SCI4: DE4
+SPI1: MISO1","","IO","","",
+"P710","M13","SCI4_CTS4","","GTIOC11B","CTS4","","SSLB3","","IRQ17","CS5","","","","","","","","","ET0_LINKSTA","ET0_LINKSTA","","CAT0_LINKSTA","ET0_LINKSTA","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: CS5
+ESC0: CAT0_LINKSTA
+ESWM_GMII/MII: ET0_LINKSTA
+ESWM_RGMII0: ET0_LINKSTA
+ESWM_RMII0: ET0_LINKSTA
+GPT11: GTIOC11B
+IRQ: IRQ17
+SCI4: CTS4
+SPI1: SSLB3","","I","","",
+"P711","N15","GPIO","","GTIOC11A","CTS_RTS1/DE1","","SSLB2","","IRQ3","","","","","","","","","","GPTP0_PPS","GPTP0_PPS","","CATRESETOUT","GPTP0_PPS","","","","AGTEE0","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","AGT0: AGTEE0
+ESC: CATRESETOUT
+ESWM_GMII/MII: GPTP0_PPS
+ESWM_RGMII0: GPTP0_PPS
+ESWM_RMII0: GPTP0_PPS
+GPT11: GTIOC11A
+IRQ: IRQ3
+SCI1: CTS_RTS1
+SCI1: DE1
+SPI1: SSLB2","","IO","","",
+"P712","N13","","","GTIOC2B","CTS1","","SSLB1","","IRQ2","","","","","","","","","","GPTP1_CAPTURE","GPTP1_CAPTURE","","CATLATCH1","GPTP1_CAPTURE","","","","AGTOB0","","","","","","","","","","","","","","","","Disabled","","","AGT0: AGTOB0
+ESC: CATLATCH1
+ESWM_GMII/MII: GPTP1_CAPTURE
+ESWM_RGMII1: GPTP1_CAPTURE
+ESWM_RMII1: GPTP1_CAPTURE
+GPT2: GTIOC2B
+IRQ: IRQ2
+SCI1: CTS1
+SPI1: SSLB1","","None","","",
+"P713","N16","","","GTIOC2A","CTS4","","","","IRQ14","","","","","","","","","","GPTP1_MATCH","GPTP1_MATCH","","CATLATCH0","GPTP1_MATCH","","","","AGTOA0","","","","","","","","","","","","","","","","Disabled","","","AGT0: AGTOA0
+ESC: CATLATCH0
+ESWM_GMII/MII: GPTP1_MATCH
+ESWM_RGMII1: GPTP1_MATCH
+ESWM_RMII1: GPTP1_MATCH
+GPT2: GTIOC2A
+IRQ: IRQ14
+SCI4: CTS4","","None","","",
+"P714","N14","","","GTIOC12B","TXD4","","","","IRQ13","","","","","","","","","","GPTP1_PPS","GPTP1_PPS","","CATSYNC1","GPTP1_PPS","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATSYNC1
+ESWM_GMII/MII: GPTP1_PPS
+ESWM_RGMII1: GPTP1_PPS
+ESWM_RMII1: GPTP1_PPS
+GPT12: GTIOC12B
+IRQ: IRQ13
+SCI4: TXD4","","None","","",
+"P715","T15","","","GTIOC12A","RXD4","","","","IRQ12","","","","","","","","","","ET_TAS_STA2","ET_TAS_STA2","","","ET_TAS_STA2","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII: ET_TAS_STA2
+ESWM_RGMII: ET_TAS_STA2
+ESWM_RMII: ET_TAS_STA2
+GPT12: GTIOC12A
+IRQ: IRQ12
+SCI4: RXD4","","None","","",
+"P800","T6","GPIO","","GTIOC11A","CTS2","","","GTIU","IRQ11","","","","","","","","","","","","","","","","","","AGTOA0","","","","","DSM1DAT0","","OM_0_SIO5","","","","","","","","None","Input mode","","","AGT0: AGTOA0
+DSMIF1: DSM1DAT0
+GPT11: GTIOC11A
+GPT_OPS: GTIU
+IRQ: IRQ11
+OSPI0: OM_0_SIO5
+SCI2: CTS2","","IO","","",
+"P801","P6","","","GTIOC11B","TXD2","","","GTIV","IRQ12","","","","","","","","","","GPTP1_PPS","GPTP1_PPS","","CATRESETOUT","GPTP1_PPS","","","","AGTOB0","","","","","DSM1DAT1","","OM_0_DQS","","","","","","","","","Disabled","","","AGT0: AGTOB0
+DSMIF1: DSM1DAT1
+ESC: CATRESETOUT
+ESWM_GMII/MII: GPTP1_PPS
+ESWM_RGMII1: GPTP1_PPS
+ESWM_RMII1: GPTP1_PPS
+GPT11: GTIOC11B
+GPT_OPS: GTIV
+IRQ: IRQ12
+OSPI0: OM_0_DQS
+SCI2: TXD2","","None","","",
+"P802","R6","","","GTIOC12A","RXD2","","","GTIW","IRQ18","","","","","","","","","","","","","","","","","","","","","","","DSM1DAT2","","OM_0_SIO6","","","","","","","","","Disabled","","","DSMIF1: DSM1DAT2
+GPT12: GTIOC12A
+GPT_OPS: GTIW
+IRQ: IRQ18
+OSPI0: OM_0_SIO6
+SCI2: RXD2","","None","","",
+"P803","P7","","","GTIOC12B","DE2/SCK2","","","","IRQ19","","","","","","","","","","","","","","","","","GTETRGC","","","","","","DSM1CLK0","","OM_0_SIO1","","","","","","","","","Disabled","","","DSMIF1: DSM1CLK0
+GPT12: GTIOC12B
+GPT_POEGC: GTETRGC
+IRQ: IRQ19
+OSPI0: OM_0_SIO1
+SCI2: DE2
+SCI2: SCK2","","None","","",
+"P804","R7","GPT_POEGD_GTETRGD","","GTIOC13A","DE2/CTS_RTS2","","","","IRQ14","","","","","","","GTETRGD","","","","","","","","","","","","","","","","DSM1CLK1","","OM_0_SIO7","","","","","","","L","None","Peripheral mode","","","DSMIF1: DSM1CLK1
+GPT13: GTIOC13A
+GPT_POEGD: GTETRGD
+IRQ: IRQ14
+OSPI0: OM_0_SIO7
+SCI2: CTS_RTS2
+SCI2: DE2","","I","","",
+"P805","P12","ADC0_AN017","","","TXD8","","","","IRQ30","","","","","","","","","","ET1_MDIO","ET1_MDIO","","","ET1_MDIO","","","","","","","","","","","","","AN017/AN017","","IVCMP0","","","","","Analog mode","","","ACMPHS: IVCMP0
+ADC0: AN017
+ADC1: AN017
+ESWM_GMII/MII: ET1_MDIO
+ESWM_RGMII1: ET1_MDIO
+ESWM_RMII1: ET1_MDIO
+IRQ: IRQ30
+SCI8: TXD8","","I","","",
+"P806","T14","ADC0_AN018","","","RXD8","","","","IRQ0","","","","","","","","","","ET1_MDC","ET1_MDC","","","ET1_MDC","","","","","","","","","","","","","AN018/AN018","","","","","","","Analog mode","","","ADC0: AN018
+ADC1: AN018
+ESWM_GMII/MII: ET1_MDC
+ESWM_RGMII1: ET1_MDC
+ESWM_RMII1: ET1_MDC
+IRQ: IRQ0
+SCI8: RXD8","","I","","",
+"P807","N11","","","GTIOC13A","","","","","IRQ11","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT13: GTIOC13A
+IRQ: IRQ11","","None","","",
+"P808","U5","GPIO","","GTIOC13B","RXD7","","","","IRQ15","","","","","","","","","","","","","","","","","","","","","","","DSM1CLK2","","OM_0_SCLK","","","","","","","L","","Output mode (Initial Low)","","","DSMIF1: DSM1CLK2
+GPT13: GTIOC13B
+IRQ: IRQ15
+OSPI0: OM_0_SCLK
+SCI7: RXD7","","IO","","",
+"P809","T5","GPIO","","","TXD7","","","","IRQ20","","","","","","","","","","","","","","","","","","","","","","","","","OM_0_SCLKN","","","","","","","L","","Output mode (Initial Low)","","","IRQ: IRQ20
+OSPI0: OM_0_SCLKN
+SCI7: TXD7","","IO","","",
+"P810","M9","","","GTIOC10A","SCK7/DE7","","","","IRQ21","","","","ULPTOA0","","SD1DAT2","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT10: GTIOC10A
+IRQ: IRQ21
+SCI7: DE7
+SCI7: SCK7
+SDHI1: SD1DAT2
+ULPT0: ULPTOA0","","None","","",
+"P811","N8","","","GTIOC10B","CTS7","","","","IRQ22","","","","ULPTOB0","","SD1DAT3","","","","","","","","","USB_ID","","","","","","","","","","","","","","","","","","","Disabled","","","GPT10: GTIOC10B
+IRQ: IRQ22
+SCI7: CTS7
+SDHI1: SD1DAT3
+ULPT0: ULPTOB0
+USB FS: USB_ID","","None","","",
+"P812","P8","ADC0_AN022","","GTIOC11A","CTS_RTS7/DE7","","","","IRQ23","","","","","","SD1DAT4","","","","","","","","","USB_EXICEN","","","","","","","","","","","","AN022/AN022","","","","","","","Analog mode","","","ADC0: AN022
+ADC1: AN022
+GPT11: GTIOC11A
+IRQ: IRQ23
+SCI7: CTS_RTS7
+SCI7: DE7
+SDHI1: SD1DAT4
+USB FS: USB_EXICEN","","I","","",
+"P813","B1","GPIO","","GTIOC7B","DE7/SCK7","","","","IRQ15","","SDCS","","","","","","","GTETRGA","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","GPT7: GTIOC7B
+GPT_POEGA: GTETRGA
+IRQ: IRQ15
+SCI7: DE7
+SCI7: SCK7
+SDRAM: SDCS","","IO","","",
+"P814","U16","USB FS_USB_DP","","GTIOC8B","","CRX0","","","IRQ16","","","","","","","","","","","","","","","USB_DP","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD0: CRX0
+GPT8: GTIOC8B
+IRQ: IRQ16
+USB FS: USB_DP","","IO","","",
+"P815","T16","USB FS_USB_DM","","GTIOC8A","","CTX0","","","IRQ15","","","","","","","","","","","","","","","USB_DM","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","CANFD0: CTX0
+GPT8: GTIOC8A
+IRQ: IRQ15
+USB FS: USB_DM","","IO","","",
+"P900","R3","GPIO","","GTADSM0","CTS3","","","","IRQ30","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","GPT: GTADSM0
+IRQ: IRQ30
+SCI3: CTS3","","IO","","",
+"P901","T4","GPIO","","GTADSM1","CTS_RTS3/DE3","","","","IRQ31","","","","","","","","","","","","","","","","","","AGTIO1","","","","","","","","","","","","","","","None","Input mode","","","AGT1: AGTIO1
+GPT: GTADSM1
+IRQ: IRQ31
+SCI3: CTS_RTS3
+SCI3: DE3","","IO","","",
+"P902","E9","","","GTCPPO13","","","","","IRQ0","ALE","","","","","","","","","","","","","","","","","","","","ETHPHYCLK","","","","","","","","","","","","","Disabled","","","BUS: ALE
+ETHPHYCLK: ETHPHYCLK
+GPT13: GTCPPO13
+IRQ: IRQ0","","None","","",
+"P903","D9","","","GTIOC11A","","","","","IRQ1","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT11: GTIOC11A
+IRQ: IRQ1","","None","","",
+"P904","A16","GPIO","","GTIOC11B","","","","","IRQ2","","","","","","","","","","ET1_RXD4","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","ESWM_GMII/MII1: ET1_RXD4
+GPT11: GTIOC11B
+IRQ: IRQ2","","IO","","",
+"P905","A14","ESWM_GMII/MII1_ET1_RX_CLK","","GTCPPO13","RXD3","","","","IRQ8","","","AD1FLAG1","","","","","","","ET1_RX_CLK","RGMII1_RXC","","CAT1_RX_CLK","RMII1_REF50CK","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): AD1FLAG1
+ESC1: CAT1_RX_CLK
+ESWM_GMII/MII1: ET1_RX_CLK
+ESWM_RGMII1: RGMII1_RXC
+ESWM_RMII1: RMII1_REF50CK
+GPT13: GTCPPO13
+IRQ: IRQ8
+SCI3: RXD3","","I","","",
+"P906","A13","ESWM_GMII/MII1_ET1_RXD0","","GTIOC13B","CTS6","","","","IRQ9","","","","ULPTO1","","","","AD0FLAG1","","ET1_RXD0","RGMII1_RXD0","","CAT1_ERXD0","RMII1_RXD0","USB_ID","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): AD0FLAG1
+ESC1: CAT1_ERXD0
+ESWM_GMII/MII1: ET1_RXD0
+ESWM_RGMII1: RGMII1_RXD0
+ESWM_RMII1: RMII1_RXD0
+GPT13: GTIOC13B
+IRQ: IRQ9
+SCI6: CTS6
+ULPT1: ULPTO1
+USB FS: USB_ID","","I","","",
+"P907","A15","ESWM_GMII/MII1_ET1_RXD1","","GTIOC13A","DE6/SCK6","","","","IRQ10","","","","ULPTEE1","","","","","","ET1_RXD1","RGMII1_RXD1","","CAT1_ERXD1","RMII1_RXD1","USB_EXICEN","ADSYNC","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC(Digital): ADSYNC
+ESC1: CAT1_ERXD1
+ESWM_GMII/MII1: ET1_RXD1
+ESWM_RGMII1: RGMII1_RXD1
+ESWM_RMII1: RMII1_RXD1
+GPT13: GTIOC13A
+IRQ: IRQ10
+SCI6: DE6
+SCI6: SCK6
+ULPT1: ULPTEE1
+USB FS: USB_EXICEN","","I","","",
+"P908","B13","ESWM_GMII/MII1_ET1_RXD2","","GTIOC12B","TXD6","CRX1","","","IRQ11","","","ADST1","ULPTEVI1","","","","","","ET1_RXD2","RGMII1_RXD2","","CAT1_ERXD2","","USB_OVRCURB","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADST1
+CANFD1: CRX1
+ESC1: CAT1_ERXD2
+ESWM_GMII/MII1: ET1_RXD2
+ESWM_RGMII1: RGMII1_RXD2
+GPT12: GTIOC12B
+IRQ: IRQ11
+SCI6: TXD6
+ULPT1: ULPTEVI1
+USB FS: USB_OVRCURB","","I","","",
+"P909","B14","ESWM_GMII/MII1_ET1_RXD3","","GTIOC12A","RXD6","CTX1","","","IRQ21-DS","","","","ULPTOA1","","","","ADST0","","ET1_RXD3","RGMII1_RXD3","","CAT1_ERXD3","","USB_OVRCURA","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): ADST0
+CANFD1: CTX1
+ESC1: CAT1_ERXD3
+ESWM_GMII/MII1: ET1_RXD3
+ESWM_RGMII1: RGMII1_RXD3
+GPT12: GTIOC12A
+IRQ: IRQ21-DS
+SCI6: RXD6
+ULPT1: ULPTOA1
+USB FS: USB_OVRCURA","","I","","",
+"P910","E11","","","GTCPPO12","","","","","IRQ7","","","","","","","","","","ET1_TXD4","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII1: ET1_TXD4
+GPT12: GTCPPO12
+IRQ: IRQ7","","None","","",
+"P911","C12","GPIO","","GTIOC3B","","","","","IRQ6","","","","","","","","","","ET1_TXD5","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","ESWM_GMII/MII1: ET1_TXD5
+GPT3: GTIOC3B
+IRQ: IRQ6","","IO","","",
+"P912","D12","GPIO","","GTIOC3A","","","","","IRQ5","","","","","","","","","","ET1_TXD6","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","ESWM_GMII/MII1: ET1_TXD6
+GPT3: GTIOC3A
+IRQ: IRQ5","","IO","","",
+"P913","E12","GPIO","","GTCPPO11","","","","","IRQ3","","","","","","","","","","ET1_TXD7","","","","","","","","","CLKOUT","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","CLKOUT: CLKOUT
+ESWM_GMII/MII1: ET1_TXD7
+GPT11: GTCPPO11
+IRQ: IRQ3","","IO","","",
+"P914","E5","","","GTIOC5B","CTS_RTS6/DE6","","","","IRQ9","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT5: GTIOC5B
+IRQ: IRQ9
+SCI6: CTS_RTS6
+SCI6: DE6","","None","","",
+"P915","A6","","","GTIOC5A","CTS6","","","","IRQ8","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","GPT5: GTIOC5A
+IRQ: IRQ8
+SCI6: CTS6","","None","","",
+"PA00","G1","GPIO","","GTCPPO7","CTS_RTS5/DE5","","","GTOVLO","IRQ22","A5","A5","AD1FLAG1","","","SD0DAT7","","","","","","","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","ADC1(Digital): AD1FLAG1
+BUS: A5
+GPT7: GTCPPO7
+GPT_OPS: GTOVLO
+IRQ: IRQ22
+SCI5: CTS_RTS5
+SCI5: DE5
+SDHI0: SD0DAT7
+SDRAM: A5","","IO","","",
+"PA01","H4","","","GTCPPO8","CTS5","","","GTOVUP","IRQ21","A4","A4","","","","SD0DAT6","","AD0FLAG1","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ADC0(Digital): AD0FLAG1
+BUS: A4
+GPT8: GTCPPO8
+GPT_OPS: GTOVUP
+IRQ: IRQ21
+SCI5: CTS5
+SDHI0: SD0DAT6
+SDRAM: A4","","None","","",
+"PA02","F1","SCI2_RXD2","","GTCPPO9","RXD2","","","GTIW","IRQ31","A3","A3","","","","SD0DAT5","","","","","","","","","","ADSYNC","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC(Digital): ADSYNC
+BUS: A3
+GPT9: GTCPPO9
+GPT_OPS: GTIW
+IRQ: IRQ31
+SCI2: RXD2
+SDHI0: SD0DAT5
+SDRAM: A3","","I","","",
+"PA03","G2","SCI2_TXD2","","GTCPPO10","TXD2","","","GTIV","IRQ20","A2","A2","ADST1","","","SD0DAT4","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADST1
+BUS: A2
+GPT10: GTCPPO10
+GPT_OPS: GTIV
+IRQ: IRQ20
+SCI2: TXD2
+SDHI0: SD0DAT4
+SDRAM: A2","","O","","",
+"PA04","D1","GPIO","","GTIOC4B","SCK2/DE2","","","GTIU","IRQ19","A1","A1/DQM3","","","","SD0DAT3","","ADST0","","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","ADC0(Digital): ADST0
+BUS: A1
+GPT4: GTIOC4B
+GPT_OPS: GTIU
+IRQ: IRQ19
+SCI2: DE2
+SCI2: SCK2
+SDHI0: SD0DAT3
+SDRAM: A1
+SDRAM: DQM3","","IO","","",
+"PA05","G3","SCI2_DE2","","GTIOC4A","CTS_RTS2/DE2","","","","IRQ18","BC0/A0","DQM1/A0","","","","SD0DAT2","GTETRGD","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A0
+BUS: BC0
+GPT4: GTIOC4A
+GPT_POEGD: GTETRGD
+IRQ: IRQ18
+SCI2: CTS_RTS2
+SCI2: DE2
+SDHI0: SD0DAT2
+SDRAM: A0
+SDRAM: DQM1","","O","","",
+"PA06","C1","GPIO","","GTIOC7B","CTS2","","","","IRQ17","CS1","CKE","","","","SD0DAT1","","","","","","","","","","","GTETRGC","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","BUS: CS1
+GPT7: GTIOC7B
+GPT_POEGC: GTETRGC
+IRQ: IRQ17
+SCI2: CTS2
+SDHI0: SD0DAT1
+SDRAM: CKE","","IO","","",
+"PA07","G4","GPIO","","GTIOC7A","CTS7","","","","IRQ16","RD","","","","GTETRGB","SD0DAT0","","","","","","VCOUT","","","","","","","","","","","","","","","","","","","","","None","Input mode","","","BUS: RD
+CMPOUT: VCOUT
+GPT7: GTIOC7A
+GPT_POEGB: GTETRGB
+IRQ: IRQ16
+SCI7: CTS7
+SDHI0: SD0DAT0","","IO","","",
+"PA08","F3","","","GTCPPO11","RXD5","","","","IRQ6","CS0","WE","","","","","GTETRGD","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","BUS: CS0
+GPT11: GTCPPO11
+GPT_POEGD: GTETRGD
+IRQ: IRQ6
+SCI5: RXD5
+SDRAM: WE","","None","","",
+"PA09","F4","","","GTCPPO12","TXD5","","","","IRQ5","CS3","CAS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","BUS: CS3
+GPT12: GTCPPO12
+IRQ: IRQ5
+SCI5: TXD5
+SDRAM: CAS","","None","","",
+"PA10","F2","","","GTCPPO13","SCK5/DE5","","","","IRQ4","CS2","RAS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","BUS: CS2
+GPT13: GTCPPO13
+IRQ: IRQ4
+SCI5: DE5
+SCI5: SCK5
+SDRAM: RAS","","None","","",
+"PA11","B4","GPIO","","GTIOC6A","SCK9/DE9","","","GTIV","IRQ10","D8","DQ8","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial Low)","","","BUS: D8
+GPT6: GTIOC6A
+GPT_OPS: GTIV
+IRQ: IRQ10
+SCI9: DE9
+SCI9: SCK9
+SDRAM: DQ8","","IO","","",
+"PA12","B2","SCI9_RXD9","","GTIOC6B","RXD9","","","GTIW","IRQ11","D9","DQ9","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D9
+GPT6: GTIOC6B
+GPT_OPS: GTIW
+IRQ: IRQ11
+SCI9: RXD9
+SDRAM: DQ9","","I","","",
+"PA13","C3","SCI9_CTS_RTS9","","GTIOC10A","CTS_RTS9/DE9","","","GTOVUP","IRQ12","D10","DQ10","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D10
+GPT10: GTIOC10A
+GPT_OPS: GTOVUP
+IRQ: IRQ12
+SCI9: CTS_RTS9
+SCI9: DE9
+SDRAM: DQ10","","IO","","",
+"PA14","D4","SCI9_TXD9","","GTIOC10B","TXD9","","","GTOVLO","IRQ13","D11","DQ11","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: D11
+GPT10: GTIOC10B
+GPT_OPS: GTOVLO
+IRQ: IRQ13
+SCI9: TXD9
+SDRAM: DQ11","","O","","",
+"PA15","E1","GPIO","","GTIOC7A","CTS9","","","","IRQ14","EBCLK","SDCLK","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","","Output mode (Initial High)","","","BUS: EBCLK
+GPT7: GTIOC7A
+IRQ: IRQ14
+SCI9: CTS9
+SDRAM: SDCLK","","IO","","",
+"PB00","E16","ESWM_GMII/MII0_ET0_TXD0","","GTCPPO4","SCK1/DE1","","","","IRQ10","","","","","","","","ADST0","","ET0_TXD0","RGMII0_TXD0","","CAT0_ETXD0","RMII0_TXD0","","","","","","","","","DSM1CLK2","","","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): ADST0
+DSMIF1: DSM1CLK2
+ESC0: CAT0_ETXD0
+ESWM_GMII/MII0: ET0_TXD0
+ESWM_RGMII0: RGMII0_TXD0
+ESWM_RMII0: RMII0_TXD0
+GPT4: GTCPPO4
+IRQ: IRQ10
+SCI1: DE1
+SCI1: SCK1","","O","","",
+"PB01","D17","ESWM_GMII/MII0_ET0_TX_CLK","","GTCPPO2","CTS_RTS1/DE1","","","","IRQ12","ALE","","AD1FLAG1","","","","","","","ET0_TX_CLK","","","CAT0_TX_CLK","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): AD1FLAG1
+BUS: ALE
+ESC0: CAT0_TX_CLK
+ESWM_GMII/MII0: ET0_TX_CLK
+GPT2: GTCPPO2
+IRQ: IRQ12
+SCI1: CTS_RTS1
+SCI1: DE1","","I","","",
+"PB02","E13","ESWM_GMII/MII0_ET0_TXD1","","GTCPPO0","RXD5","","","","IRQ11","","","ADST1","","","","","","","ET0_TXD1","RGMII0_TXD1","","CAT0_ETXD1","RMII0_TXD1","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC1(Digital): ADST1
+ESC0: CAT0_ETXD1
+ESWM_GMII/MII0: ET0_TXD1
+ESWM_RGMII0: RGMII0_TXD1
+ESWM_RMII0: RMII0_TXD1
+GPT0: GTCPPO0
+IRQ: IRQ11
+SCI5: RXD5","","O","","",
+"PB03","D16","ESWM_GMII/MII0_ET0_TXD2","","GTCPPO1","TXD5","","","","IRQ13","","","","","","","","","","ET0_TXD2","RGMII0_TXD2","","CAT0_ETXD2","","","ADSYNC","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC(Digital): ADSYNC
+ESC0: CAT0_ETXD2
+ESWM_GMII/MII0: ET0_TXD2
+ESWM_RGMII0: RGMII0_TXD2
+GPT1: GTCPPO1
+IRQ: IRQ13
+SCI5: TXD5","","O","","",
+"PB04","D13","ESWM_GMII/MII0_ET0_TXD3","","GTCPPO3","SCK5/DE5","","","","IRQ9","","","","","","","","AD0FLAG1","","ET0_TXD3","RGMII0_TXD3","","CAT0_ETXD3","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","ADC0(Digital): AD0FLAG1
+ESC0: CAT0_ETXD3
+ESWM_GMII/MII0: ET0_TXD3
+ESWM_RGMII0: RGMII0_TXD3
+GPT3: GTCPPO3
+IRQ: IRQ9
+SCI5: DE5
+SCI5: SCK5","","O","","",
+"PB05","D15","","","GTCPPO4","CTS5","","","","IRQ15","","","","","","","","","","ET0_TXD7","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_TXD7
+GPT4: GTCPPO4
+IRQ: IRQ15
+SCI5: CTS5","","None","","",
+"PB06","E14","","","GTIOC9A","CTS_RTS5/DE5","","","","IRQ0","","","","","","","","","","ET0_TXD6","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_TXD6
+GPT9: GTIOC9A
+IRQ: IRQ0
+SCI5: CTS_RTS5
+SCI5: DE5","","None","","",
+"PB07","D14","","","GTIOC9B","","","","","IRQ1","","","","","","","","","","ET0_TXD5","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_TXD5
+GPT9: GTIOC9B
+IRQ: IRQ1","","None","","",
+"PB08","J14","","","","","","","","IRQ12","","","","","","","","","","","","","CATLEDRUN","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATLEDRUN
+IRQ: IRQ12","","None","","",
+"PB09","H15","","","","","","","","IRQ13","","","","","","","","","","","","","CATIRQ","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATIRQ
+IRQ: IRQ13","","None","","",
+"PB10","H16","","","","","","","","IRQ4","","","","","","","","","","","","","CATLEDSTER","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATLEDSTER
+IRQ: IRQ4","","None","","",
+"PB11","G17","","","","","","","","IRQ5","","","","","","","","","","","","","CATLEDERR","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATLEDERR
+IRQ: IRQ5","","None","","",
+"PB12","G16","","","","","","","","IRQ6","","","","","","","","","","","","","CATLINKACT0","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATLINKACT0
+IRQ: IRQ6","","None","","",
+"PB13","H17","","","","","","","","IRQ7","","","","","","","","","","","","","CATLINKACT1","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATLINKACT1
+IRQ: IRQ7","","None","","",
+"PB14","G15","","","","","","","","IRQ10","","","","","","","","","","","","","CATSYNC0","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESC: CATSYNC0
+IRQ: IRQ10","","None","","",
+"PC00","M1","","","GTCPPO7","CTS_RTS7/DE7","","","","IRQ28","D30","DQ30","","","","","","","","","","","","","","","","","","","","","","","OM_1_SIO5","","","","","","","","","Disabled","","","BUS: D30
+GPT7: GTCPPO7
+IRQ: IRQ28
+OSPI1: OM_1_SIO5
+SCI7: CTS_RTS7
+SCI7: DE7
+SDRAM: DQ30","","None","","",
+"PC01","M3","","","GTCPPO6","CTS7","","","","IRQ27","D29","DQ29","","","","","","","","","","","","","","","","","","","","","","","OM_1_SIO0","","","","","","","","","Disabled","","","BUS: D29
+GPT6: GTCPPO6
+IRQ: IRQ27
+OSPI1: OM_1_SIO0
+SCI7: CTS7
+SDRAM: DQ29","","None","","",
+"PC02","L2","","","GTCPPO5","SCK7/DE7","","","","IRQ26","D28","DQ28","","","","","","","","","","","","","","","","","","","","","DSM0CLK2","","OM_1_SIO3","","","","","","","","","Disabled","","","BUS: D28
+DSMIF0: DSM0CLK2
+GPT5: GTCPPO5
+IRQ: IRQ26
+OSPI1: OM_1_SIO3
+SCI7: DE7
+SCI7: SCK7
+SDRAM: DQ28","","None","","",
+"PC03","L1","","","GTCPPO4","TXD7","","","","IRQ25","D27","DQ27","","","","","","","","","","","","","","","","","","","","","DSM0CLK1","","OM_1_SIO4","","","","","","","","","Disabled","","","BUS: D27
+DSMIF0: DSM0CLK1
+GPT4: GTCPPO4
+IRQ: IRQ25
+OSPI1: OM_1_SIO4
+SCI7: TXD7
+SDRAM: DQ27","","None","","",
+"PC04","L3","","","GTCPPO3","RXD7","","","","IRQ24","D26","DQ26","","","","","","","","","","","","","","","","","","","","","DSM0CLK0","","OM_1_SIO2","","","","","","","","","Disabled","","","BUS: D26
+DSMIF0: DSM0CLK0
+GPT3: GTCPPO3
+IRQ: IRQ24
+OSPI1: OM_1_SIO2
+SCI7: RXD7
+SDRAM: DQ26","","None","","",
+"PC05","L5","","","GTCPPO2","","","","","IRQ23","D25","DQ25","","","","","","","","","","","","","","","","","","","","","DSM0DAT2","","OM_1_CS1","","","","","","","","","Disabled","","","BUS: D25
+DSMIF0: DSM0DAT2
+GPT2: GTCPPO2
+IRQ: IRQ23
+OSPI1: OM_1_CS1
+SDRAM: DQ25","","None","","",
+"PC06","N4","","","GTCPPO1","","","","","IRQ22","D24","DQ24","","","","","","","","","","","","","","","","","","","","","DSM0DAT1","","OM_1_ECSINT1","","","","","","","","","Disabled","","","BUS: D24
+DSMIF0: DSM0DAT1
+GPT1: GTCPPO1
+IRQ: IRQ22
+OSPI1: OM_1_ECSINT1
+SDRAM: DQ24","","None","","",
+"PC07","K5","","","GTCPPO0","","","","","IRQ21","D23","DQ23","","","","","","","","","","","","","","","","","","","","","DSM0DAT0","","OM_1_RESET","","","","","","","","","Disabled","","","BUS: D23
+DSMIF0: DSM0DAT0
+GPT0: GTCPPO0
+IRQ: IRQ21
+OSPI1: OM_1_RESET
+SDRAM: DQ23","","None","","",
+"PC08","M4","","","GTCPPO8","","","","","IRQ29","D22","DQ22","","","","","","","","","","","","","","","","","","","","","DSM1DAT0","","OM_1_CS0","","","","","","","","","Disabled","","","BUS: D22
+DSMIF1: DSM1DAT0
+GPT8: GTCPPO8
+IRQ: IRQ29
+OSPI1: OM_1_CS0
+SDRAM: DQ22","","None","","",
+"PC09","L4","","","","","","","","IRQ5","D21","DQ21","","","","","","","","","","","","","","","","","","","","","","","OM_1_RSTO1","","","","","","","","","Disabled","","","BUS: D21
+IRQ: IRQ5
+OSPI1: OM_1_RSTO1
+SDRAM: DQ21","","None","","",
+"PC10","M5","","","GTCPPO13","","","","","IRQ4","D20","DQ20","","","","","","","","","","","","","","","","","","","","","DSM1CLK2","","OM_1_WP1","","","","","","","","","Disabled","","","BUS: D20
+DSMIF1: DSM1CLK2
+GPT13: GTCPPO13
+IRQ: IRQ4
+OSPI1: OM_1_WP1
+SDRAM: DQ20","","None","","",
+"PC11","H5","","","GTCPPO12","CTS_RTS6/DE6","","","","IRQ3","D19","DQ19","","","","","","","","ET0_MDC","ET0_MDC","","CAT0_MDC","ET0_MDC","","","","","","","","","DSM1CLK1","","","","","","","","","","","Disabled","","","BUS: D19
+DSMIF1: DSM1CLK1
+ESC: CAT0_MDC
+ESWM_GMII/MII: ET0_MDC
+ESWM_RGMII0: ET0_MDC
+ESWM_RMII0: ET0_MDC
+GPT12: GTCPPO12
+IRQ: IRQ3
+SCI6: CTS_RTS6
+SCI6: DE6
+SDRAM: DQ19","","None","","",
+"PC12","G5","","","GTCPPO11","SCK6/DE6","","","","IRQ2","D18","DQ18","","","","","","","","ET0_MDIO","ET0_MDIO","","CAT0_MDIO","ET0_MDIO","","","","","","","","","DSM1CLK0","","","","","","","","","","","Disabled","","","BUS: D18
+DSMIF1: DSM1CLK0
+ESC: CAT0_MDIO
+ESWM_GMII/MII: ET0_MDIO
+ESWM_RGMII0: ET0_MDIO
+ESWM_RMII0: ET0_MDIO
+GPT11: GTCPPO11
+IRQ: IRQ2
+SCI6: DE6
+SCI6: SCK6
+SDRAM: DQ18","","None","","",
+"PC13","J5","","","GTCPPO10","RXD6","","","","IRQ1","D17","DQ17","","","","","","","","ET0_INT","ET0_INT","","","ET0_INT","","","","","","","","","DSM1DAT2","","","","","","","","","","","Disabled","","","BUS: D17
+DSMIF1: DSM1DAT2
+ESWM_GMII/MII: ET0_INT
+ESWM_RGMII0: ET0_INT
+ESWM_RMII0: ET0_INT
+GPT10: GTCPPO10
+IRQ: IRQ1
+SCI6: RXD6
+SDRAM: DQ17","","None","","",
+"PC14","F5","","","GTCPPO9/GTADSM1","TXD6","","","","IRQ0","D16","DQ16","","","","","","","","ET0_WOL","ET0_WOL","","","ET0_WOL","","","","","","","","","DSM1DAT1","","","","","","","","","","","Disabled","","","BUS: D16
+DSMIF1: DSM1DAT1
+ESWM_GMII/MII: ET0_WOL
+ESWM_RGMII0: ET0_WOL
+ESWM_RMII0: ET0_WOL
+GPT: GTADSM1
+GPT9: GTCPPO9
+IRQ: IRQ0
+SCI6: TXD6
+SDRAM: DQ16","","None","","",
+"PC15","K1","CANFD1_CRX1","","GTADSM0","CTS6","CRX1","","","IRQ30","A16","A16","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A16
+CANFD1: CRX1
+GPT: GTADSM0
+IRQ: IRQ30
+SCI6: CTS6
+SDRAM: A16","","I","","",
+"PD00","K4","CANFD1_CTX1","","GTCPPO5","DE5/SCK5","CTX1","","GTOWLO","IRQ23","A15","A15","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","L","None","Peripheral mode","","","BUS: A15
+CANFD1: CTX1
+GPT5: GTCPPO5
+GPT_OPS: GTOWLO
+IRQ: IRQ23
+SCI5: DE5
+SCI5: SCK5
+SDRAM: A15","","O","","",
+"PD01","B16","","","GTCPPO2","SCK8/DE8","","","","IRQ22","","","","","","SD0DAT2","","","","ET1_RXD6","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII1: ET1_RXD6
+GPT2: GTCPPO2
+IRQ: IRQ22
+SCI8: DE8
+SCI8: SCK8
+SDHI0: SD0DAT2","","None","","",
+"PD02","B17","","","GTCPPO1","TXD8","","","","IRQ21","","","","","","SD0DAT1","","","","ET1_RXD7","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII1: ET1_RXD7
+GPT1: GTCPPO1
+IRQ: IRQ21
+SCI8: TXD8
+SDHI0: SD0DAT1","","None","","",
+"PD03","C15","","","GTIOC3B","RXD8","","","","IRQ21","","","","","","SD0DAT0","","","","ET0_RXD4","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_RXD4
+GPT3: GTIOC3B
+IRQ: IRQ21
+SCI8: RXD8
+SDHI0: SD0DAT0","","None","","",
+"PD04","C14","","","GTIOC3A","CTS_RTS8/DE8","","","","IRQ20","","","","","","SD0CMD","","","","ET0_RXD5","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_RXD5
+GPT3: GTIOC3A
+IRQ: IRQ20
+SCI8: CTS_RTS8
+SCI8: DE8
+SDHI0: SD0CMD","","None","","",
+"PD05","C16","","","GTIOC2B","CTS8","","","","IRQ19","","","","","","SD0CLK","","","","ET0_RXD6","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_RXD6
+GPT2: GTIOC2B
+IRQ: IRQ19
+SCI8: CTS8
+SDHI0: SD0CLK","","None","","",
+"PD06","C17","","","GTIOC2A","","","","","IRQ18","","","","","","SD0WP","","","","ET0_RXD7","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_RXD7
+GPT2: GTIOC2A
+IRQ: IRQ18
+SDHI0: SD0WP","","None","","",
+"PD07","E15","","","GTCPPO0","","","","","IRQ17","","","","","","SD0CD","","","","ET0_TXD4","","","","","","","","","","","","","","","","","","","","","","","","Disabled","","","ESWM_GMII/MII0: ET0_TXD4
+GPT0: GTCPPO0
+IRQ: IRQ17
+SDHI0: SD0CD","","None","","",
+"RES","D5","CGC_RES","RES","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VBATT","M16","CGC_VBATT","VBATT","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","H11","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","H14","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","G11","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","F6","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","G6","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","F11","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","H6","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","L15","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","K15","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC","K14","CGC_VCC","VCC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC2","R1","CGC_VCC2","VCC2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC2","J6","CGC_VCC2","VCC2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC2","L6","CGC_VCC2","VCC2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC2","M7","CGC_VCC2","VCC2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC2","M8","CGC_VCC2","VCC2","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC_DCDC","A10","CGC_VCC_DCDC","VCC_DCDC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC_DCDC","A11","CGC_VCC_DCDC","VCC_DCDC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC_DCDC","B10","CGC_VCC_DCDC","VCC_DCDC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC_DCDC","B11","CGC_VCC_DCDC","VCC_DCDC","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCC_USB","U17","CGC_VCC_USB","VCC_USB","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","F9","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","G9","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","H9","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","M11","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","J8","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","J9","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","K8","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","K9","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","L10","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","L11","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","K11","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VCL","J11","CGC_VCL","VCL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VLO","A7","CGC_VLO","VLO","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VLO","A8","CGC_VLO","VLO","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VLO","B7","CGC_VLO","VLO","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VLO","B8","CGC_VLO","VLO","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VREFH","U9","CGC_VREFH","VREFH","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VREFH0","U10","CGC_VREFH0","VREFH0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VREFL","T9","CGC_VREFL","VREFL","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VREFL0","T10","CGC_VREFL0","VREFL0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","A9","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","B9","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","H10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","H12","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","U4","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","G10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","F7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","F8","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","G7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","G8","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","F10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","H7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","H8","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","M10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","M17","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","K6","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","K7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","L7","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","L8","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","L12","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","L9","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","K10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","K12","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J10","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J12","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J16","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J15","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS","J17","CGC_VSS","VSS","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
+"VSS_USB","T17","CGC_VSS_USB","VSS_USB","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","IO","Read only","",
