@@ -25,12 +25,13 @@ This package provides example projects for using [micro-ROS](https://micro.ros.o
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | [RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd) | RA Series | [EK-RA6M5](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group)                                          | USB-CDC <br /> Serial UART <br /> UDP (FreeRTOS + TCP) <br /> UDP (ThreadX + NetX) <br /> TCP (AWS Secure Sockets) <br /> CAN FD |
 | [RA6T2](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control)     | RA Series | [MCK-RA6T2](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group) | Serial UART <br /> CAN FD                                                                                                        |
+| [RA8T2](https://www.renesas.com/en/products/ra8t2)     | RA Series | [MCK-RA8T2](https://www.renesas.com/en/design-resources/boards-kits/mck-ra8t2) | UDP (FreeRTOS + TCP)                                                                                                             |
 
 
 ## Requirements
 
 - [Renesas e<sup>2</sup> studio](https://www.renesas.com/us/en/software-tool/e-studio) for Linux<sup>1</sup>
-- FSP v5.6.0 board packs for Renesas e<sup>2</sup> studio: [Details](https://github.com/micro-ROS/micro_ros_renesas2estudio_component/blob/jazzy/fps_install_packs.md).
+- FSP v6.1.0 (backwards compatible from 5.6.0) board packs for Renesas e<sup>2</sup> studio: [Details](https://github.com/micro-ROS/micro_ros_renesas2estudio_component/blob/jazzy/fps_install_packs.md).
 - GNU Arm Embedded Toolchain v10.3.1.20210824 (Other compatible toolchain may work).
 - [Install colcon](https://colcon.readthedocs.io/en/released/user/installation.html) and dependencies, for example with:
 
@@ -52,6 +53,7 @@ pip3 install colcon-common-extensions catkin_pkg lark-parser empy
 |           | [ThreadX](https://azure.microsoft.com/en-us/services/rtos/) | UDP       | micro-ROS using a network transport and ThreadX + NetX                           | [`micro_ros_udp_threadx`](Boards/EK_RA6M5/micro_ros_udp_threadX)                           |
 | MCK-RA6T2 | Bare Metal                                                  | CAN FD    | micro-ROS using a CAN FD transport                                               | [`micro_ros_can`](Boards/MCK_RA6T2/micro_ros_can)                                          |
 |           | Bare Metal                                                  | UART      | micro-ROS using a serial UART transport                                          | [`micro_ros_uart`](Boards/MCK_RA6T2/micro_ros_uart)                                        |
+| MCK-RA8T2 | [FreeRTOS](https://www.freertos.org/)                       | UDP       | micro-ROS using a network transport and FreeRTOS + TCP                           | [`micro_ros_udp_freertos`](Boards/MCK_RA8T2/micro_ros_udp_freertos)                        |
 
 ## Demo Videos
 A set of step-by-step demonstration videos for micro-ROS with Renesas e2studio
@@ -63,6 +65,7 @@ A set of step-by-step demonstration videos for micro-ROS with Renesas e2studio
 | EK-RA6M5  | micro-ROS publisher demo                         | [link](https://www.youtube.com/watch?v=-9nJlE1oCBQ)                                                  |
 | EK-RA6M5  | micro-ROS parameter demo                         | [link](https://www.youtube.com/watch?v=_FRAoU1uFwk&list=PL-Kh3H15FsNTD8A8wD0_iMnvhDsqw-rga&index=13) |
 | MCK-RA6T2 | BLDC Motor Controller using Microros over CAN FD | [link](https://www.youtube.com/watch?v=yQc0EVPqKTE)                                                  |
+| MCK-RA8T2 | micro-ROS over UDP (FreeRTOS)                     | (coming soon)                                                                                        |
 
 ## Getting started
 
