@@ -65,7 +65,7 @@ A set of step-by-step demonstration videos for micro-ROS with Renesas e2studio
 | EK-RA6M5  | micro-ROS publisher demo                         | [link](https://www.youtube.com/watch?v=-9nJlE1oCBQ)                                                  |
 | EK-RA6M5  | micro-ROS parameter demo                         | [link](https://www.youtube.com/watch?v=_FRAoU1uFwk&list=PL-Kh3H15FsNTD8A8wD0_iMnvhDsqw-rga&index=13) |
 | MCK-RA6T2 | BLDC Motor Controller using Microros over CAN FD | [link](https://www.youtube.com/watch?v=yQc0EVPqKTE)                                                  |
-| MCK-RA8T2 | micro-ROS over UDP (FreeRTOS)                     | (coming soon)                                                                                        |
+| MCK-RA8T2 | micro-ROS over UDP (FreeRTOS)                     | [link](https://www.youtube.com/watch?v=R6bBRwmvNuw)                                                                                        |
 
 ## Getting started
 
