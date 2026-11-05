@@ -20,6 +20,11 @@ jobs:
             branch: jazzy
           - distro: kilted
             branch: kilted
+<<<<<<< HEAD
+=======
+          - distro: lyrical
+            branch: lyrical
+>>>>>>> 0d4fcc2 (Add distros to autoupdate (#164))
           - distro: rolling
             branch: rolling
     steps:
