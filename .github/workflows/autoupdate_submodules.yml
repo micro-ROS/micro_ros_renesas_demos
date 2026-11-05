@@ -18,6 +18,10 @@ jobs:
             branch: humble
           - distro: jazzy
             branch: jazzy
+          - distro: kilted
+            branch: kilted
+          - distro: lyrical
+            branch: lyrical
           - distro: rolling
             branch: rolling
     steps:
