@@ -14,24 +14,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-<<<<<<< HEAD
-          - local_branch: foxy
-            remote_branch: foxy
-          - local_branch: galactic
-            remote_branch: galactic
-          - local_branch: humble
-            remote_branch: humble
-          - local_branch: demo1
-            remote_branch: humble
-          - local_branch: demo2
-            remote_branch: humble
-          - local_branch: demo3
-            remote_branch: humble
-          - local_branch: demo_motor
-            remote_branch: humble
-          - local_branch: main
-            remote_branch: main
-=======
           - distro: humble
             branch: humble
           - distro: jazzy
@@ -42,7 +24,6 @@ jobs:
             branch: lyrical
           - distro: rolling
             branch: rolling
->>>>>>> 0d4fcc2 (Add distros to autoupdate (#164))
     steps:
       - uses: actions/checkout@v2
         with:
